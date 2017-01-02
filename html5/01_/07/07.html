@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <script>
+        window.onload = function(){
+
+            var canvas = document.getElementById('canvas');
+            canvas.width = 300;
+            canvas.height = 300;
+            var ctx = canvas.getContext('2d');
+
+            canvas.addEventListener('mousedown', function(e){
+                console.log('mousedown');
+                var loc = windowToConvas(canvas, e.clientX, e.clientY);
+                console.log(loc);
+            });
+            canvas.addEventListener('mouseup', function(e){
+                console.log('mouseup');
+                var loc = windowToConvas(canvas, e.clientX, e.clientY);
+                console.log(loc);
+            });
+            canvas.addEventListener('mousemove', function(e){
+                console.log('mousemove');
+                var loc = windowToConvas(canvas, e.clientX, e.clientY);
+                console.log(loc);
+            });
+            canvas.addEventListener('mouseout', function(e){
+                console.log('mouseout');
+                var loc = windowToConvas(canvas, e.clientX, e.clientY);
+                console.log(loc);
+            });
+
+
+            function windowToConvas(canvas, x, y){
+                var bbox = canvas.getBoundingClientRect();  // 获取canvas边界框
+                return {
+                    x : x - bbox.left * (canvas.width / bbox.width),
+                    y : y - bbox.top * (canvas.height / bbox.height)
+                };
+            }
+
+            canvas.addEventListener('keypress', function(e){
+                var key = String.fromCharCode(e.which);
+                console.log('keypress, ', key);
+            });
+            canvas.addEventListener('keydown', function(e){
+                var key = String.fromCharCode(e.which);
+                console.log('keydown, ', key);
+            });
+            canvas.addEventListener('keyup', function(e){
+                var key = String.fromCharCode(e.which);
+                console.log('keyup, ', key);
+            });
+
+        };
+    </script>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+</body>
+</html>

@@ -1,0 +1,25 @@
+function People(name)
+	self={}
+	
+	local function init()
+		self.name = name
+	end
+	self.sayHi=function()
+	 print("People say Hi")
+	end
+	
+	
+	init()
+	return self
+end
+
+
+
+
+
+
+
+local function main()
+
+end
+main()

@@ -1,0 +1,51 @@
+package com.mingzz.smacktest03;
+
+import org.jivesoftware.smack.Connection;
+import org.jivesoftware.smack.ConnectionConfiguration;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.XMPPException;
+
+public class SmackTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ConnectionConfiguration config = new ConnectionConfiguration("127.0.0.1", 5222);
+		config.setCompressionEnabled(true);
+		config.setSASLAuthenticationEnabled(true);
+
+		Connection connection = new XMPPConnection(config);
+		
+		try {
+			// Connect to the server
+			connection.connect();
+			// Log into the server
+			connection.login("admin", "admin", "SomeResource");
+		} catch (XMPPException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		// Assume we've created a Connection name "connection".
+		ChatManager chatmanager = connection.getChatManager();
+		Chat newChat = chatmanager.createChat("jsmith@jivesoftware.com", new MessageListener() {
+		    public void processMessage(Chat chat, Message message) {
+		        System.out.println("Received message: " + message);
+		    }
+		});
+
+		try {
+		    newChat.sendMessage("Howdy!");
+		}
+		catch (XMPPException e) {
+		    System.out.println("Error Delivering block");
+		}
+
+	}
+
+}

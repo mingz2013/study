@@ -1,0 +1,31 @@
+<html>
+<hr>
+
+<p><b><font color="red">
+{foreach from=$values item=id}
+数组内容：{$id}<br>
+{/foreach}
+
+<hr>
+原始内容：{$name}<br>
+首字母大写：{$name|capitalize}<br>
+计算字符数：{$name|count_characters}<br>
+
+</font></b></p>
+
+<hr>
+<p><b><font color="red">{$title}</font></b></p>
+
+<hr>
+循环数组<br>
+{section name=list loop=$titles}
+<p><b><font color="red">
+
+{$titles[list].name}   {$titles[list].date}
+
+</font></b></p>
+{/section}
+<hr>
+
+
+</html>

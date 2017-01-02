@@ -1,0 +1,18 @@
+local function main()
+
+  Config={}
+  
+  Config.words="hello"
+  
+  Config.num=100
+  
+  print(Config.words)
+  
+  Config["name"]="уехЩ"
+  
+  print(Config.name)
+  
+  print(Config["num"])
+
+end
+main()

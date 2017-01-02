@@ -1,0 +1,45 @@
+!SESSION 2013-11-16 10:51:43.764 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-16 10:52:51.915
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2013-11-16 15:15:06.075 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-16 15:15:36.414
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2013-11-26 23:37:45.255 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-26 23:38:39.278
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

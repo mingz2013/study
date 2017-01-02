@@ -1,0 +1,1 @@
+<font color=red size=20>PHP中MVC学习之ThinkPHP</font><hr>MVC本来是存在于Desktop程序中的，M是指数据模型，V是指用户界面，C是指控制器，使用MVC的目的是将M和V的实现代码分离<br>MVC是一个设计模式，它强制性的使用应用程序的输入，处理和输出分开<br>使用MVC应用程序被分为三个核心部件：模型 视图 控制器   他们各自处理自己的任务<br><br>多个视图能共享一个模型<br><br>ThinkPHP   简称TP<br>PHP开发框架     需要下载<br>

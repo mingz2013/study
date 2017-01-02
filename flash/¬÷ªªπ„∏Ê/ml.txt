@@ -1,0 +1,2 @@
+﻿tp1=1.jpg&tp2=2.jpg&tp3=3.jpg&tp4=4.jpg&name1=百度搜索&name2=人人网&name3=淘宝网&name4=易搜
+&lj1=http://www.baidu.com&lj2=http://www.renren.com&lj3=http://www.taobao.com&http://www.yisou.com

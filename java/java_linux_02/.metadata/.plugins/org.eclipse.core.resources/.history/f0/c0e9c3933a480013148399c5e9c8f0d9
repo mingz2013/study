@@ -1,0 +1,30 @@
+package WebServer;
+
+import java.net.ServerSocket;
+
+public class WebServer {
+	protected void start(){
+		ServerSocket socket;
+		System.out.println("WebServer start on port 80");
+		System.out.println("press ctrl+c to exit");
+		try {
+			socket = new ServerSocket(80);
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Error:" + e);
+			return;
+		}
+		System.out.println(waiting for connect);
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

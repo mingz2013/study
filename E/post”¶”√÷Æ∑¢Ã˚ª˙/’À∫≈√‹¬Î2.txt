@@ -1,0 +1,107 @@
+http://bbs.ly.shangdu.com/
+用户名：qq123123qq
+密码：qq123123
+POST /login.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://bbs.ly.shangdu.com/index.php
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: bbs.ly.shangdu.com
+Content-Length: 109
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: f8a22_lastpos=other; f8a22_oltoken=UVRXVwpYUQxeCm8CVg; f8a22_online_info=1336723750%091820%094818; lzstat_uv=17858028213707190304|728893; lzstat_ss=3652514800_9_1336752581_728893; f8a22_ipstate=1336723730; f8a22_cknum=UldXUAVTVwNVCW89VQlZXFQAAgBSVgtZUVEEW1FQAAVRVFRVUwVXV1MCAgE; f8a22_jobpop=0; f8a22_lastvisit=0%091336723756%09%2Fy.php%3Factionsync%26nowtime1336723781447%26verify683e48f9; Hm_lvt_25a924734ba58f945663548ddf2ef4e2=1336723781315; Hm_lpvt_25a924734ba58f945663548ddf2ef4e2=1336723781315; Hm_lvt_4ec3a16a25bc0957496fb738a83ae002=1336723781385; Hm_lpvt_4ec3a16a25bc0957496fb738a83ae002=1336723781385
+
+
+http://bbs.ly.shangdu.com/login.php
+
+jumpurl=http%3A%2F%2Fbbs.ly.shangdu.com%2Findex.php&step=2&pwuser=qq123123qq&pwpwd=qq123123&head_login=&lgt=0
+
+
+
+
+######################发表说说##############
+
+POST /apps.php?q=weibo&ajax=1&nowtime=1336725143423&verify=9ff3aa50 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://bbs.ly.shangdu.com/u.php
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: bbs.ly.shangdu.com
+Content-Length: 331
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Hm_lvt_4ec3a16a25bc0957496fb738a83ae002=1336725082849; Hm_lpvt_4ec3a16a25bc0957496fb738a83ae002=1336725082849; f8a22_lastpos=other; f8a22_oltoken=UVRXVwpYUQxeCm8CVg; f8a22_online_info=1336725020%091867%095019; lzstat_uv=17858028213707190304|728893; f8a22_ipstate=1336723730; f8a22_cknum=UldXUAVTVwNVCW89VQlZXFQAAgBSVgtZUVEEW1FQAAVRVFRVUwVXV1MCAgE; f8a22_jobpop=0; lzstat_ss=3652514800_22_1336753882_728893; f8a22_winduser=W1NVVAdWbQdVXwBXAVVZUwdUV1BVAgNQBgwEAQMCBlICVw8AAgdTbw; f8a22_ck_info=%2F%09.shangdu.com; f8a22_hideid=1; f8a22_lastvisit=154%091336725117%09%2Fapps.php%3Fqweibo%26dopost%26ajax1%26nowtime1336725141918%26verify9ff3aa50; f8a22_threadlog=%2C2%2C; Hm_lvt_25a924734ba58f945663548ddf2ef4e2=1336725082781; Hm_lpvt_25a924734ba58f945663548ddf2ef4e2=1336725082781
+
+
+do=filterweibo&page=1&filter%5Brelation%5D%5Bself%5D=1&filter%5Brelation%5D%5Bfriend%5D=1&filter%5Brelation%5D%5Battention%5D=1&filter%5Bsource%5D%5Barticle%5D=1&filter%5Bsource%5D%5Bdiary%5D=1&filter%5Bsource%5D%5Bphotos%5D=1&filter%5Bsource%5D%5Bgroup%5D=1&filter%5Bcontenttype%5D%5Bstring%5D=1&filter%5Bcontenttype%5D%5Bimg%5D=1
+
+
+
+POST /apps.php?q=weibo&do=post&ajax=1&nowtime=1336725141918&verify=9ff3aa50 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://bbs.ly.shangdu.com/u.php
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: bbs.ly.shangdu.com
+Content-Length: 42
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Hm_lvt_4ec3a16a25bc0957496fb738a83ae002=1336725082849; Hm_lpvt_4ec3a16a25bc0957496fb738a83ae002=1336725082849; f8a22_lastpos=other; f8a22_oltoken=UVRXVwpYUQxeCm8CVg; f8a22_online_info=1336725020%091867%095019; lzstat_uv=17858028213707190304|728893; f8a22_ipstate=1336723730; f8a22_cknum=UldXUAVTVwNVCW89VQlZXFQAAgBSVgtZUVEEW1FQAAVRVFRVUwVXV1MCAgE; f8a22_jobpop=0; lzstat_ss=3652514800_22_1336753882_728893; f8a22_winduser=W1NVVAdWbQdVXwBXAVVZUwdUV1BVAgNQBgwEAQMCBlICVw8AAgdTbw; f8a22_ck_info=%2F%09.shangdu.com; f8a22_hideid=1; f8a22_lastvisit=94%091336725057%09%2Fu.php; f8a22_threadlog=%2C2%2C; Hm_lvt_25a924734ba58f945663548ddf2ef4e2=1336725082781; Hm_lpvt_25a924734ba58f945663548ddf2ef4e2=1336725082781
+
+verify=9ff3aa50&atc_content=good+how+are+u
+http://bbs.ly.shangdu.com/apps.php?q=weibo&do=post&ajax=1&nowtime=1336725141918&verify=9ff3aa50
+
+POST /login.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://bbs.ly.shangdu.com/index.php
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: bbs.ly.shangdu.com
+Content-Length: 109
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Hm_lvt_4ec3a16a25bc0957496fb738a83ae002=1336734063356; f8a22_jobpop=0; Hm_lpvt_4ec3a16a25bc0957496fb738a83ae002=1336734063356; f8a22_lastpos=other; f8a22_oltoken=UVRXVwpYUQxeCm8CVg; f8a22_online_info=1336734016%091336%093562; lzstat_uv=17858028213707190304|728893; f8a22_ipstate=1336723730; f8a22_cknum=UldXUAVTVwNVCW89VQlZXFQAAgBSVgtZUVEEW1FQAAVRVFRVUwVXV1MCAgE; f8a22_jobpop=0; f8a22_threadlog=%2C2%2C; lzstat_ss=666245603_5_1336762863_728893; f8a22_lastvisit=4%091336734038%09%2Fy.php%3Factionsync%26nowtime1336734063447%26verify683e48f9; Hm_lvt_25a924734ba58f945663548ddf2ef4e2=1336734063287; Hm_lpvt_25a924734ba58f945663548ddf2ef4e2=1336734063287
+
+
+
+POST /apps.php?q=weibo&ajax=1&nowtime=1336782138624&verify=9ff3aa50 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://bbs.ly.shangdu.com/u.php
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: bbs.ly.shangdu.com
+Content-Length: 331
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Hm_lvt_4ec3a16a25bc0957496fb738a83ae002=1336782078171; f8a22_jobpop=0; Hm_lpvt_4ec3a16a25bc0957496fb738a83ae002=1336782078171; f8a22_lastpos=other; f8a22_oltoken=UVRXVwpYUQxeCm8CVg; f8a22_online_info=1336782016%09720%092032; lzstat_uv=17858028213707190304|728893; f8a22_ipstate=1336782016; f8a22_cknum=UldXUAVTVwNVCW89VQlZXFQAAgBSVgtZUVEEW1FQAAVRVFRVUwVXV1MCAgE; f8a22_jobpop=0; f8a22_threadlog=%2C2%2C; lzstat_ss=957375915_2_1336810878_728893; f8a22_winduser=W1NVVAdWbQdVXwBXAVVZUwdUV1BVAgNQBgwEAQMCBlICVw8AAgdTbw; f8a22_ck_info=%2F%09.shangdu.com; f8a22_hideid=1; f8a22_lastvisit=64%091336782110%09%2Fapps.php%3Fqweibo%26dopost%26ajax1%26nowtime1336782137117%26verify9ff3aa50; Hm_lvt_25a924734ba58f945663548ddf2ef4e2=1336782078124; Hm_lpvt_25a924734ba58f945663548ddf2ef4e2=1336782078124
+
+do=filterweibo&page=1&filter%5Brelation%5D%5Bself%5D=1&filter%5Brelation%5D%5Bfriend%5D=1&filter%5Brelation%5D%5Battention%5D=1&filter%5Bsource%5D%5Barticle%5D=1&filter%5Bsource%5D%5Bdiary%5D=1&filter%5Bsource%5D%5Bphotos%5D=1&filter%5Bsource%5D%5Bgroup%5D=1&filter%5Bcontenttype%5D%5Bstring%5D=1&filter%5Bcontenttype%5D%5Bimg%5D=1
+
+
+
+POST /apps.php?q=weibo&do=post&ajax=1&nowtime=1336782137117&verify=9ff3aa50 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://bbs.ly.shangdu.com/u.php
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: bbs.ly.shangdu.com
+Content-Length: 37
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Hm_lvt_4ec3a16a25bc0957496fb738a83ae002=1336782078171; f8a22_jobpop=0; Hm_lpvt_4ec3a16a25bc0957496fb738a83ae002=1336782078171; f8a22_lastpos=other; f8a22_oltoken=UVRXVwpYUQxeCm8CVg; f8a22_online_info=1336782016%09720%092032; lzstat_uv=17858028213707190304|728893; f8a22_ipstate=1336782016; f8a22_cknum=UldXUAVTVwNVCW89VQlZXFQAAgBSVgtZUVEEW1FQAAVRVFRVUwVXV1MCAgE; f8a22_jobpop=0; f8a22_threadlog=%2C2%2C; lzstat_ss=957375915_2_1336810878_728893; f8a22_winduser=W1NVVAdWbQdVXwBXAVVZUwdUV1BVAgNQBgwEAQMCBlICVw8AAgdTbw; f8a22_ck_info=%2F%09.shangdu.com; f8a22_hideid=1; f8a22_lastvisit=4%091336782050%09%2Fu.php; Hm_lvt_25a924734ba58f945663548ddf2ef4e2=1336782078124; Hm_lpvt_25a924734ba58f945663548ddf2ef4e2=1336782078124
+
+bbs.ly.shangdu.com/apps.php?q=weibo&do=post&ajax=1&nowtime=1336782137117&verify=9ff3aa50
+verify=9ff3aa50&atc_content=how+are+u

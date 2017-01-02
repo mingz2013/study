@@ -1,0 +1,8 @@
+<?php
+
+class Thinkphp01Model {
+
+    function Thinkphp01Model() {
+    }
+}
+?>

@@ -1,0 +1,80 @@
+package com.mingzz.xmppclient;
+
+import org.jivesoftware.smack.*;
+import org.jivesoftware.smack.packet.*;
+
+public class XMPPClient {
+	// 连接
+	public static XMPPConnection getConnection(String domain) throws XMPPException {  
+	      
+	     XMPPConnection connection = new XMPPConnection(domain);  
+	     connection.connect();  
+	     return connection;  
+	}  
+	public static XMPPConnection getConnection(String domain,int port) throws XMPPException {  
+	     ConnectionConfiguration config = new ConnectionConfiguration(domain,port);  
+	     XMPPConnection connection = new XMPPConnection(config);  
+	     connection.connect();  
+	     return connection;  
+	}  
+	/** 
+     * 注册用户 
+     * @param connection 
+     * @param regUserName 
+     * @param regUserPwd 
+     * @return 
+     */  
+    public static boolean createAccount(XMPPConnection connection,String regUserName,String regUserPwd)  
+    {  
+        try {  
+            connection.getAccountManager().createAccount(regUserName, regUserPwd);  
+            return true;  
+        } catch (Exception e) {  
+            return false;  
+        }  
+    }  
+    /** 
+     * 删除当前用户 
+     * @param connection 
+     * @return 
+     */  
+    public static boolean deleteAccount(XMPPConnection connection)  
+    {  
+        try {  
+            connection.getAccountManager().deleteAccount();  
+          
+            return true;  
+        } catch (Exception e) {  
+            return false;  
+        }  
+    }  
+     
+    /** 
+     * 删除修改密码 
+     * @param connection 
+     * @return 
+     */  
+    public static boolean changePassword(XMPPConnection connection,String pwd)  
+    {  
+        try {  
+            connection.getAccountManager().changePassword(pwd);  
+          
+            return true;  
+        } catch (Exception e) {  
+            return false;  
+        }  
+    }  
+    
+    
+    public static void sendMessage(Chat chat,String message) throws XMPPException {  
+        chat.sendMessage(message);  
+    }  
+      
+    public static void sendMessage(Chat chat,Message message) throws XMPPException {  
+        chat.sendMessage(message);  
+    }  
+ 
+ 
+	
+
+}

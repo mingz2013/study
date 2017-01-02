@@ -1,0 +1,22 @@
+local function main()
+
+
+arr={1, 2, 3, 4, "hello"} --索引从1开始
+
+for key, var in pairs(arr) do
+	print(key, var)
+end
+
+print("---------------------")
+
+arr={}
+for var=1, 100 do
+	table.insert(arr,1,var)
+end
+for key, var in pairs(arr) do
+	print(key, var)
+end
+
+
+end
+main()

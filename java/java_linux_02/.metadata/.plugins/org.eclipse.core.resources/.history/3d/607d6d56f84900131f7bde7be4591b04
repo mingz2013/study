@@ -1,0 +1,24 @@
+package mingzz;
+
+import javax.swing.JFrame;
+
+import com.heaton.bot.HTTP;
+import com.heaton.bot.HTTPSocket;
+
+public class ViewURL extends JFrame{
+	HTTP _http;
+	public ViewURL(){
+		_http = new HTTPSocket();
+		setTitle("View URL");
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,1 @@
+class A{	A(){	//	构造函数		System.out.println("我是 A 的构造函数");	}	void funA(){		System.out.println("没有参数的funA函数");	}	void funA(int i){		System.out.println("这时有一个参数的funA函数，重载函数");	}	void funA(int i, double j){		System.out.println("这时有两个参数的funA函数，重载函数");	}}

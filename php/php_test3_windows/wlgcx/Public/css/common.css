@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+#daohang ul {
+	background-color: #999;
+	color: #3300CC;
+	background-position: 0px 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-indent: 30px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#daohang li {
+	display:inline /*/ 横着拍*/;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #000099;
+	font-size: medium;
+}
+body {
+	background-color: #999;
+	margin: 10px;
+	padding: 10px;
+}
+#head {
+	height: 80px;
+}
+#title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #00C;
+	vertical-align: bottom;
+	white-space: normal;
+}
+.centerstyle {
+	text-align: center;
+}
+#cebian {
+	height: auto;
+	width: 250px;
+	border-right-width: thick;
+	border-right-style: inset;
+	border-right-color: #FFF;
+}
+#lmdh {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	color: #C09;
+}
+
+table {
+	letter-spacing: normal;
+	text-align: center;
+	word-spacing: normal;
+	white-space: normal;
+	display: table;
+	clear: none;
+	float: none;
+	height: auto;
+	width: 800px;
+	border: medium double #9F3;
+}
+tr {
+	border: thick dashed #F06;
+	text-align: center;
+	vertical-align: middle;
+}
+#zhengwen {
+	color: #0FF;
+	text-align: center;
+}
+td {
+	border: medium double #0C9;
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+D:\studymyself\php\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+605412329.index
+3415089175.index
+1387486354.index
+2829431818.index
+3149828294.index

@@ -1,0 +1,40 @@
+package mingzz;
+
+import javax.swing.JFrame;
+
+import com.heaton.bot.HTTP;
+import com.heaton.bot.HTTPSocket;
+
+public class ViewURL extends JFrame{
+	HTTP _http;
+	public ViewURL(){
+		_http = new HTTPSocket();
+		setTitle("View URL");
+		getContentPane().setLayout(null);
+		setSize(495, 341);
+		setVisible(false);
+		getContentPane().add(_pane2);
+		
+		
+	}
+	public void setVisible(boolean b)
+	{
+		if(b){
+			setLocation(50, 50);
+		}
+		super.setVisible(b);
+	}
+	
+	
+	
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

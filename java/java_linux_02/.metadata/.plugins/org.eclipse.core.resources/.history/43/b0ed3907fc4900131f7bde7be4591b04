@@ -1,0 +1,112 @@
+package mingzz;
+
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.WindowEvent;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableModel;
+
+import com.heaton.bot.HTTP;
+import com.heaton.bot.HTTPSocket;
+
+public class ViewURL extends JFrame{
+	HTTP _http;
+	public ViewURL(){
+		_http = new HTTPSocket();
+		setTitle("View URL");
+		getContentPane().setLayout(null);
+		setSize(495, 341);
+		setVisible(false);
+	//	getContentPane().add(_pane2);
+		
+		
+	}
+	public void setVisible(boolean b)
+	{
+		if(b){
+			setLocation(50, 50);
+		}
+		super.setVisible(b);
+	}
+	
+	public void addNotify()
+	{
+		Dimension size = getSize();
+		super.addNotify();
+		//if()
+	}
+	
+	boolean frameSizeAdjusted = false;
+	JScrollPane _pane2 = new JScrollPane();
+	JTextArea _body = new JTextArea();
+	JScrollPane _pane1 = new JScrollPane();
+	JTable _headers = new JTable();
+	JLabel _label3 = new JLabel();
+	JLabel _label1 = new JLabel();
+	JTextField _url = new JTextField();
+	JButton _go = new JButton();
+	JLabel _label2 = new JLabel();
+	
+	void ViewURL_windowClosed(WindowEvent event)
+	{
+		System.exit(0);
+	}
+	
+	void Go_actionPerformed(ActionEvent event)
+	{
+		try {
+			_http.send(_url.getText(), null);
+			_body.setText(_http.getBody());
+			_url.setText(_http.getURL());
+			
+			TableModel dataModel = new AbstractTableModel() {
+				public int getColumnCount(){return 2;}
+				public int getRowCount(){return _http.getServerHeaders().length();}
+				public String getColumnName(int columnIndex){
+					switch(columnIndex){
+					case 0:return "HTTP Header";
+					case 1:return "Value";
+					}
+					return "";
+				}
+				
+				
+				@Override
+				public Object getValueAt(int rowIndex, int columnIndex) {
+					// TODO Auto-generated method stub
+					if(columnIndex == 0)
+						return _http.getServerHeaders().get(rowIndex).getName();
+					else
+						return _http.getServerHeaders().get(rowIndex).getValue();
+						
+					
+							
+				}
+				
+				
+			};
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+	
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

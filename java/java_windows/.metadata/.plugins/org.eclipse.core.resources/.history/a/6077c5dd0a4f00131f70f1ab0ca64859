@@ -1,0 +1,50 @@
+package com.mingzz.xmpp;
+
+import org.jivesoftware.smack.*;
+
+public class XMPPTest {
+	public void login(){
+		
+		XMPPConnection.DEBUG_ENABLED = true;  
+		AccountManager accountManager;  
+		final ConnectionConfiguration connectionConfig = new ConnectionConfiguration(  
+		        "localhost", Integer.parseInt("5222"), "localhost");  
+		  
+		// 允许自动连接  
+		connectionConfig.setReconnectionAllowed(true);  
+		connectionConfig.setSendPresence(true);  
+		  
+		Connection connection = new XMPPConnection(connectionConfig);  
+		try {  
+		    connection.connect();// 开启连接  
+		    accountManager = connection.getAccountManager();// 获取账户管理类  
+		} catch (XMPPException e) {  
+		    throw new IllegalStateException(e);  
+		}  
+		  
+		// 登录  
+		try {
+			connection.login("admin", "admin","SmackTest");
+		} catch (XMPPException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}  
+		System.out.println(connection.getUser());   
+		try {
+			connection.getChatManager().createChat("shimiso@csdn.shimiso.com",null).sendMessage("Hello word!");
+		} catch (XMPPException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	}
+
+}

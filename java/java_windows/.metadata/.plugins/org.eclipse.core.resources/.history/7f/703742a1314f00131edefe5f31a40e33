@@ -1,0 +1,36 @@
+package com.mingzz.smacktest01;
+
+import org.jivesoftware.smack.Chat;
+import org.jivesoftware.smack.Connection;
+import org.jivesoftware.smack.MessageListener;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.XMPPException;
+import org.jivesoftware.smack.packet.Message;
+
+public class SmackTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{
+		Connection connection = new XMPPConnection("jabber.org");
+		connection.connect();
+		connection.login("mtucker", "password");
+		Chat chat = connection.getChatManager().createChat("jsmith@jivesoftware.com", new MessageListener() {
+			@Override
+			public void processMessage(Chat arg0, Message arg1) {
+				// TODO Auto-generated method stub
+				System.out.println("Received message: " + arg1);
+				
+			}
+		});
+		chat.sendMessage("Howdy!");
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+
+	}
+
+}

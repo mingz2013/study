@@ -1,0 +1,41 @@
+package WebServer;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class WebServer {
+	protected void start(){
+		ServerSocket socket;
+		System.out.println("WebServer start on port 80");
+		System.out.println("press ctrl+c to exit");
+		try {
+			socket = new ServerSocket(80);
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Error:" + e);
+			return;
+		}
+		System.out.println("waiting for connect");
+		for(;;){
+			try {
+				Socket remote = socket.accept();
+				System.out.println("Connection sending data");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

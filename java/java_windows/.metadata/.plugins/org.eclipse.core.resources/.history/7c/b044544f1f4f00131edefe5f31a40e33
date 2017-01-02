@@ -1,0 +1,13 @@
+package com.mingzz.XMPPTest04;
+
+public class XMPPTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

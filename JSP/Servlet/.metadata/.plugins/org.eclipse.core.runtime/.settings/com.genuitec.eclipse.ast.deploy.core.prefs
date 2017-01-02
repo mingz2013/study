@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+myeclipseTomcatServer.web01_helloworld.IEARProjectName=
+myeclipseTomcatServer.web01_helloworld.altContextRoot=/web01_helloworld
+myeclipseTomcatServer.web01_helloworld.contextRoot=/web01_helloworld
+myeclipseTomcatServer.web01_helloworld.deployIsOverProject=false
+myeclipseTomcatServer.web01_helloworld.deploymentPath=D\:\\studymyself\\JSP\\Servlet\\.metadata\\.me_tcat\\webapps\\web01_helloworld
+myeclipseTomcatServer.web01_helloworld.isDeployed=true
+myeclipseTomcatServer.web01_helloworld.isExploded=true
+myeclipseTomcatServer.web01_helloworld.isUptoDate=true
+myeclipseTomcatServer.web01_helloworld.noFileCopy=false
+myeclipseTomcatServer.web01_helloworld.shouldBackup=false
+myeclipseTomcatServer.web01_helloworld.shouldOverwrite=false
+myeclipseTomcatServer.web01_helloworld.type=WebDeployment

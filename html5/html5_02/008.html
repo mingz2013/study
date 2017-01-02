@@ -1,0 +1,12 @@
+<p>You Have Viewed This Page <b>
+<script>
+if (!localStorage.pageCounter)
+localStorage.setItem('pageCounter',0);
+localStorage.setItem('pageCounter',parseInt(localStorage.pageCounter)+1);
+document.write(localStorage.pageCounter);
+</script>
+</b> Time(s).</p>
+<p><input value="Clear localStorage" type="button"
+onClick="localStorage.clear();location.reload(true);" />
+<input value="Reload Page" type="button" onClick="location.reload(true);"
+/></p>

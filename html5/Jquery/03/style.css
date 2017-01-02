@@ -1,0 +1,29 @@
+.highlight {
+	font-style: italic;
+	background-color: #0f0;
+}
+.boundary {
+	font-style:	italic;
+	background-color:	#1a0;
+}
+.linkstyle {
+	font-style:	italic;
+	background-color:	#999;
+}
+.features {
+	color:	green;
+	font-style:	italic;
+}
+.buttons {
+	width:	100px;
+	float:	left;
+	text-align:	center;
+	margin:	5px;
+	border:	2px solid;
+	font-weight:	blod;
+}
+.hover{
+	cursor: crosshair;
+	color: blue;
+	background-color: cyan;
+}

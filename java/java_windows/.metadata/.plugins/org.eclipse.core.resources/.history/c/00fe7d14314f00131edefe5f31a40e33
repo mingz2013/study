@@ -1,0 +1,13 @@
+package com.mingzz.smacktest01;
+
+public class SmackTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.mingzz.XMPPTest02;
+
+import org.jivesoftware.smack.*;
+
+public class XMPPTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		XMPPConnection connection = new XMPPConnection("jabber.org");
+		connection.login("mtucker", "password");
+		connection.createChat("jsmith@jivesoftware.com").sendMessage("Howdy!");
+
+	}
+
+}

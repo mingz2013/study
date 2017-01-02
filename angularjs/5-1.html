@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div ng-controller="myCtrl">
+    <div>{{name}}</div>
+    <input ng-model="score" value="95"/>
+    <div>{{score}}</div>
+    <p ng-repeat="obj in data">
+        <span>{{obj.name}}</span>
+        <span>{{obj.age}}</span>
+    </p>
+
+</div>
+<script type="text/javascript">
+    var myApp = angular.module('myApp', [])
+    myApp.controller('myCtrl', ['$scope', function($scope){
+        $scope.name = "zz";
+        $scope.data = [
+            {"name": 1, "age": 2},
+            {"name": 2, "age": 2},
+            {"name": 3, "age": 2}
+        ];
+    }]);
+</script>
+
+</body>
+</html>

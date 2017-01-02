@@ -1,0 +1,26 @@
+People={} --Ä£ÄâÀà
+
+People.sayHi=function()
+	print("People say Hi..")
+end
+
+function People.sayHello()
+	print("People say Hello..")
+end
+-------------------------------------
+function clone(tab)
+	local Ins = {}
+	for key, var in pairs(tab) do
+		Ins[key]=var
+	end
+	return Ins
+end
+
+------------------------------------
+
+local function main()
+  local p = clone(People)
+  p.sayHi()
+  p.sayHello()
+end
+main()

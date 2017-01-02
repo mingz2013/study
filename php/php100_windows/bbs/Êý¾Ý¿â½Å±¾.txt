@@ -1,0 +1,11 @@
+//先创建一个名为bbs的数据库,然后用以下语句建立一张表
+
+
+CREATE TABLE `message` (
+  `id` tinyint(1) NOT NULL auto_increment,
+  `user` varchar(25) NOT NULL,
+  `title` varchar(50) NOT NULL,
+  `content` tinytext NOT NULL,
+  `lastdate` date NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=gbk AUTO_INCREMENT=1 ;

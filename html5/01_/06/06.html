@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Clock</title>
+    <script>
+        window.onload = function(){
+
+            var canvas = document.getElementById('canvas');
+            canvas.width = 300;
+            canvas.height = 300;
+            var ctx = canvas.getContext('2d');
+
+            function drawCircle(){
+                ctx.beginPath();
+                ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2 - 35, 0, 2* Math.PI, true);
+                ctx.stroke();
+            }
+
+            function drawNumberals(){
+                var numberals = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+                var angle = 0;
+                var numberalWidth = 0;
+                numberals.forEach(function(numberal){
+                    angle = Math.PI / 6 * (numberal - 3);
+                    numberalWidth = ctx.measureText(numberal).width;    // 返回包含一个对象，该对象包含以像素计的指定字体宽度
+                    ctx.fillText(
+                            numberal,
+                            canvas.width / 2 + Math.cos(angle) * (canvas.width / 2 - 15) - numberalWidth / 2,
+                            canvas.width / 2 + Math.sin(angle) * (canvas.width / 2 - 15) + 15 / 3
+                    );
+
+                });
+            }
+
+            function drawCenter(){
+                ctx.beginPath();
+                ctx.arc(canvas.width / 2, canvas.height / 2, 5, 0, 2* Math.PI, true);
+                ctx.fill();
+            }
+
+            function drawHand(loc, isHour){
+                var angle = (Math.PI * 2) * (loc / 60) - Math.PI / 2;
+                var handRadius = isHour ? (canvas.width / 2 - 35) - (canvas.width / 25) - canvas.width / 10 : (canvas.width / 2 - 35) - (canvas.width / 25);
+                ctx.moveTo(canvas.width / 2, canvas.height / 2);
+                ctx.lineTo(canvas.width / 2 + Math.cos(angle) * handRadius, canvas.width / 2 + Math.sin(angle) * handRadius)
+                ctx.stroke();
+            }
+
+            function drawHands(){
+                var date = new Date();
+                var hour = date.getHours();
+                hour = hour > 12 ? hour - 12 : hour;
+                drawHand(hour * 5 + (date.getMinutes() / 60) * 5, true, 0.5);
+                drawHand(date.getMinutes(), false, 0.5);
+                drawHand(date.getSeconds(), false, 0.2);
+            }
+
+            function drawClock(){
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                drawCircle();
+                drawCenter();
+                drawHands();
+                drawNumberals();
+            }
+
+            ctx.font = '15px Arial';
+            var loop = setInterval(drawClock, 1000);
+
+        };
+    </script>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+</body>
+</html>

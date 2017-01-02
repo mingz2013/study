@@ -1,0 +1,25 @@
+.label {float: left; width: 120px; }
+.uname {width: 200px; }
+.error {color: red; padding-left: 10px; }
+#submit {margin-left: 125px; margin-top: 10px; }
+
+.listbox {
+	position: relative;
+	left: 10px;
+	margin: 10px;
+	width: 200px;
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #000;
+}
+
+.namelist {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.hover {
+	background-color: cyan;
+	color: blue;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/SmackTest04/src/com/mingzz/smacktest04/SmackTest04.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.mingzz.smacktest04.SmackTest04"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SmackTest04"/>
+</launchConfiguration>

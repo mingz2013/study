@@ -1,0 +1,39 @@
+package com.mingzz.XMPPTest03;
+
+import org.jivesoftware.smack.*;
+
+public class XMPPTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		XMPPConnection.DEBUG_ENABLED = false;  
+		AccountManager accountManager;  
+		final ConnectionConfiguration connectionConfig = new ConnectionConfiguration(  
+		        "192.168.1.78", Integer.parseInt("5222"), "csdn.shimiso.com");  
+		  
+		// 允许自动连接  
+		connectionConfig.setReconnectionAllowed(true);  
+		connectionConfig.setSendPresence(true);  
+		  
+		Connection connection = new XMPPConnection(connectionConfig);  
+		try {  
+		    connection.connect();// 开启连接  
+		    accountManager = connection.getAccountManager();// 获取账户管理类  
+		} catch (XMPPException e) {  
+		    throw new IllegalStateException(e);  
+		}  
+		connection.login("admin", "admin","SmackTest3");   
+		Message newmsg = new Message();   
+		newmsg.setTo("shimiso@csdn.shimiso.com");  
+		newmsg.setSubject("重要通知");  
+		newmsg.setBody("今天下午2点60分有会！");  
+		newmsg.setType(Message.Type.headline);// normal支持离线   
+		connection.sendPacket(newmsg);  
+		connection.disconnect(); 
+
+	}
+
+}

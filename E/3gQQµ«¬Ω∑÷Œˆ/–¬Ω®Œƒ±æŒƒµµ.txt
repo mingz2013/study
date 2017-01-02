@@ -1,0 +1,48 @@
+键	值
+请求	GET /wap_sbk.asp?Method=post&URL=http%3A//pt.3g.qq.com/s%3Faid%3DsafeLoginImageVerify%26sid%3DAfbFcJm4lfoxdV7r0EnNA8Hg%26vdata%3D5F8CA5ADF09DB21900D774B7807FE88D&Data=bid_code%3D3GQQ%26qq%3D1079512999%26u_token%3D1079512999%26hexpwd%3D6D696E677A69333035363033363635%26hexp%3Dtrue%26auto%3D0%26loginTitle%3D%25E6%2589%258B%25E6%259C%25BA%25E8%2585%25BE%25E8%25AE%25AF%25E7%25BD%2591%26q_from%3D%26modifySKey%3D0%26q_status%3D10%26r%3D19976%26loginType%3D1%26imgType%3D%26extend%3Dhttp%253A%252F%252Fvc.gtimg.com%252FXCU7INC75GMZYDKBSJ7Q48YMYNYYYN71%26r_sid%3DW2CfLIyaV-QrFj-ZsiyC4jyMIqxqo49rpQlkprp02B1MzBopQHGjA1dY0te3EJAkPDWcyDgfgWDNg.BE%26bid%3D0%26login_url%3Dhttp%253A%252F%252Fpt.3g.qq.com%252Fs%253Faid%253DnLoginnew%2526q_from%253D3GQQ%26toQQchat%3Dtrue%26rip%3D219.235.5.94 HTTP/1.1
+
+键	值
+请求	GET /XCU7INC75GMZYDKBSJ7Q48YMYNYYYN71.gif?r=1544 HTTP/1.1
+
+URL	方法	结果	类型	已接收	已花费	发起程序	等候??	开始??	请求??	响应??	已读取缓存??	差距??
+/wap_sbk.asp?Method=post&URL=http%3A//pt.3g.qq.com/psw3gqqLogin%3Fr%3D573912090%26vdata%3DC2721148CCAB6290CF5D77F013DA948D&Data=qq%3D1079512999%26pwd%3Dmingzi305603665%26bid_code%3D3GQQ%26toQQchat%3Dtrue%26login_url%3Dhttp%253A%252F%252Fpt.3g.qq.com%252Fs%253Faid%253DnLoginnew%2526q_from%253D3GQQ%26q_from%3D%26modifySKey%3D0%26loginType%3D1%26aid%3DnLoginHandle	GET	200	text/vnd.wap.wml	4.67 KB	93 ms		1560	0	93	0	0	110
+
+
+键	值
+请求	GET /wap_sbk.asp?Method=post&URL=http%3A//pt.3g.qq.com/psw3gqqLogin%3Fr%3D573912090%26vdata%3DC2721148CCAB6290CF5D77F013DA948D&Data=qq%3DQQ号%26pwd%3D密码%26bid_code%3D3GQQ%26toQQchat%3Dtrue%26login_url%3Dhttp%253A%252F%252Fpt.3g.qq.com%252Fs%253Faid%253DnLoginnew%2526q_from%253D3GQQ%26q_from%3D%26modifySKey%3D0%26loginType%3D1%26aid%3DnLoginHandle HTTP/1.1
+
+键	值
+请求	GET /MQK7INC75GMZYDKBSJ7Q48YMYNYYYN14.gif?r=50505 HTTP/1.1
+键	值
+请求	GET /MQK7INC75GMZYDKBSJ7Q48YMYNYYYN14.gif?r=49198 HTTP/1.1
+
+键	值
+Host	www.ua168.com
+键	值
+请求	GET /wap_sbk.asp?Method=post&URL=http%3A//pt.3g.qq.com/s%3Faid%3DsafeLoginImageVerify%26sid%3DAaiyxBerSS2mm73Rh7h7ZNBo%26vdata%3DC2721148CCAB6290CF5D77F013DA948D&Data=bid_code%3D3GQQ%26qq%3DQQ号%26u_token%3DQQ号%26hexpwd%3D6D696E677A69333035363033363635%26hexp%3Dtrue%26auto%3D0%26loginTitle%3D%25E6%2589%258B%25E6%259C%25BA%25E8%2585%25BE%25E8%25AE%25AF%25E7%25BD%2591%26q_from%3D%26modifySKey%3D0%26q_status%3D10%26r%3D50505%26loginType%3D1%26imgType%3D%26extend%3Dhttp%253A%252F%252Fvc.gtimg.com%252FMQK7INC75GMZYDKBSJ7Q48YMYNYYYN14%26r_sid%3DCFM84sx5Xv1EjV2muiLudyDYAIrH9PUMHxHN-0CopIGvcU5J0zJUgbM7VWCeAGbNpzOtaK1D-08oI.CE%26bid%3D0%26login_url%3Dhttp%253A%252F%252Fpt.3g.qq.com%252Fs%253Faid%253DnLoginnew%2526q_from%253D3GQQ%26toQQchat%3Dtrue%26rip%3D本地ip HTTP/1.1
+
+
+
+URL	方法	结果	类型	已接收	已花费	发起程序	等候??	开始??	请求??	响应??	已读取缓存??	差距??
+/wap_sbk.asp?Method=get&URL=http%3A//q32.3g.qq.com/g/s%3Fsid%3DAXtSV87mIsNSjcGvwQUduM5k%26aid%3DnqqchatMain%26on%3D1%26p%3D2&Data=	GET	200	text/vnd.wap.wml	12.75 KB	203 ms		0	47	124	32	0	171
+
+
+
+http://www.ua168.com/wap_sbk.asp?Method=get&URL=http%3A//q32.3g.qq.com/g/s%3Fsid%3DAXtSV87mIsNSjcGvwQUduM5k%26aid%3DnqqchatMain%26on%3D1%26p%3D2&Data= 
+
+
+
+QU1HINC75GMZYDKBSJ7Q48YMYNYYY4I3
+ASPSESSIONIDCARQBDQT=
+KPNDKKBCCJLJFAAHHCCHOKCL
+
+返回cookies:ASPSESSIONIDCARQBDQT=HCBEKKBCHAJIDKLJGDLGCLPP”
+* “AbUpiRmypMfN22R-ulFTHiBp”
+键	值
+请求	GET /wap_sbk.asp?Method=get&URL=http%3A//q16.3g.qq.com/g/s%3Fsid%3DAXtSV87mIsNSjcGvwQUduM5t%26aid%3DnqqGroup&Data= HTTP/1.1
+http://www.ua168.com/wap_sbk.asp?Method=get&URL=http%3A//q32.3g.qq.com/g/s%3Fsid%3DAXtSV87mIsNSjcGvwQUduM5t%26aid%3DnqqGroup&Data=
+
+
+
+
+

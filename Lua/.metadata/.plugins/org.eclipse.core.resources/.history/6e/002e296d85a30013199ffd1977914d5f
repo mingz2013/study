@@ -1,0 +1,11 @@
+local function main()
+
+
+arr={1, 2, 3, 4, "hello"}
+for key, var in pairs(arr) do
+	print(key, var)
+end
+
+
+end
+main()

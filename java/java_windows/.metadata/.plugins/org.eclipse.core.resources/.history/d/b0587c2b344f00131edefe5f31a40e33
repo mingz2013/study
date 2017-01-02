@@ -1,0 +1,28 @@
+package com.mingzz.smacktest02;
+
+import org.jivesoftware.smack.*;
+
+public class SmackTest02 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Create a connection to the jabber.org server on a specific port.
+		ConnectionConfiguration config = new ConnectionConfiguration("jabber.org", 5222);
+		Connection connection = new XMPPConnection(config);
+		conn2.connect();
+		
+		
+		
+		// 假设我们已经创建了一个名为"connection"的XMPPConnection。
+		Chat newChat = connection.createChat("jsmith@jivesoftware.com");
+		Message newMessage = newChat.createMessage();
+		newMessage.setBody("Howdy!");
+		message.setProperty("favoriteColor", "red");
+		newChat.sendMessage(newMessage);
+
+	}
+
+}

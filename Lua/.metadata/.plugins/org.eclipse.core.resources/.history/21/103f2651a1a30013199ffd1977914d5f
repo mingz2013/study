@@ -1,0 +1,16 @@
+People={} --Ä£ÄâÀà
+
+People.sayHi=function()
+	print("People say Hi..")
+end
+
+function People.sayHello()
+	print("People say Hello")
+end
+
+
+
+local function main()
+
+end
+main()

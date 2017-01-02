@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+/media/mingzz/disk/studymyself/java_linux_03/.metadata/.plugins/org.eclipse.jdt.core

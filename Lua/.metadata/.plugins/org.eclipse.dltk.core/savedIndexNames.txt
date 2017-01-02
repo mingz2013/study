@@ -1,0 +1,5 @@
+D:\studymyself\Lua\.metadata\.plugins\org.eclipse.dltk.core\3715875820.index
+D:\studymyself\Lua\.metadata\.plugins\org.eclipse.dltk.core\2781437967.index
+D:\studymyself\Lua\.metadata\.plugins\org.eclipse.dltk.core\3991439021.index
+D:\studymyself\Lua\.metadata\.plugins\org.eclipse.dltk.core\810682475.index
+D:\studymyself\Lua\.metadata\.plugins\org.eclipse.dltk.core\4243945210.index

@@ -1,0 +1,10 @@
+local function main()
+
+print("hello lua")
+
+num = 100
+print(num)
+
+
+end
+main()

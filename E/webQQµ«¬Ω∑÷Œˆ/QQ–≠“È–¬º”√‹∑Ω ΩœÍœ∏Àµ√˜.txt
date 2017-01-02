@@ -1,0 +1,20 @@
+QQ协议新加密方式详细说明作者:　admin　　时间:　2012-06-04　　点击:　300次    首先纠正之前一篇文章的一个错误，http://www.qqxieyi.com/fenxi_show.asp?id=15
+
+    这篇文章的第三个参数'\x00\x00\x00\x00\x3c\xcb\x48\x45'，其实是有用处的，在新的加密方式中不可少！
+
+    那么这个参数是什么呢？其实是我们QQ号码的16进制形式，我上次演示QQ号为：1019955269，我们把\x00\x00\x00\x00\x3c\xcb\x48\x45中的\x去掉之后就剩下000000003ccb4845,我们用计算器转换一下这个数为10进制，便是1019955269
+
+    新的加密方式具体实现：
+
+    先看这一段代码，腾讯加密JS的源代码（comm.js）
+
+    M=C.p.value;var I=hexchar2bin(md5(M));var H=md5(I+pt.uin);var G=md5(H+C.verifycode.value.toUpperCase())
+
+    整理之后为 结果=MD5(MD5(hexchar2bin(MD5(密码))+pt.uin)+大写验证码)
+
+    主要问题在pt.uin，我们将\x00\x00\x00\x00\x3c\xcb\x48\x45分为00 00 00 00 3c cb 48 45
+
+    然后对每组16进制数字转换成ASCII字符，然后连接起来就是pt.uin
+
+ 
+

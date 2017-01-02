@@ -1,0 +1,1105 @@
+!SESSION 2013-06-22 18:29:01.214 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 18:30:30.562
+!MESSAGE Indexed 'Helloworld' (1 sources, 47 headers) in 1.33 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-06-22 19:22:16.752 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 19:24:42.839
+!MESSAGE Indexed '01_open_file' (1 sources, 47 headers) in 1.38 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 20:26:32.303
+!MESSAGE Indexed '02_file' (1 sources, 47 headers) in 0.54 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jface 2 0 2013-06-22 20:46:40.095
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 20:46:40.095
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4cbe37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5c0f15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 20:50:28.873
+!MESSAGE Indexed '03_dir' (1 sources, 47 headers) in 0.44 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 21:40:00.724
+!MESSAGE Indexed '04_rmdir' (1 sources, 47 headers) in 0.52 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 22:04:49.822
+!MESSAGE Indexed '05_read_write_file' (1 sources, 47 headers) in 0.48 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 22:22:36.578
+!MESSAGE Indexed '06_write_file' (1 sources, 47 headers) in 0.47 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3ce806,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3ce806,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a4e30f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a4e30f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1372582,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17f9933,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17f9933,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@231c75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12156d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12156d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1cbd21f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@500cd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@500cd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17958fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c0ffea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c0ffea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e15fa0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14d0985,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14d0985,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ac05af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1a96000,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1a96000,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ddc5c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-22 22:22:50.427
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e3d518,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e3d518,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bb1ba0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 22:42:30.633
+!MESSAGE Indexed '07_file' (1 sources, 47 headers) in 0.46 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 22:48:38.374
+!MESSAGE Indexed '08_fread' (1 sources, 47 headers) in 0.39 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 23:14:30.465
+!MESSAGE Indexed '09_fscanf' (1 sources, 47 headers) in 0.52 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 23:29:25.099
+!MESSAGE Indexed '10_file' (0 sources, 36 headers) in 0.30 sec: 715 declarations; 917 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-22 23:30:00.730
+!MESSAGE Indexed '10_file' (1 sources, 47 headers) in 0.48 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-06-23 09:24:18.792 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-06-23 09:24:24.186
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2013-06-23 09:25:31.195
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.195
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10d66,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10d66,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.195
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@116c45e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@116c45e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b5f9ee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.196
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2b8571,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2b8571,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@145fc60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.196
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1bc2314,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1bc2314,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a2fc10,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.196
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@52b628,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@52b628,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@351d15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.196
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1088a54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1088a54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b19da2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.196
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e4382c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e4382c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2404f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.196
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c1e8ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c1e8ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a28d4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 09:25:31.196
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1eacf12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1eacf12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c0cba1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 09:36:49.441
+!MESSAGE Indexed '11_fork' (1 sources, 47 headers) in 1.02 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jface 2 0 2013-06-23 10:05:37.707
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 10:05:37.707
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1059067,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4b6a1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 10:12:06.097
+!MESSAGE Indexed '12_doexec' (1 sources, 47 headers) in 0.55 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 10:28:31.074
+!MESSAGE Indexed '12_beexec' (1 sources, 47 headers) in 0.47 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 10:57:38.314
+!MESSAGE Indexed '13_Pipe' (1 sources, 47 headers) in 0.47 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 11:17:11.946
+!MESSAGE Indexed '14_dup' (1 sources, 47 headers) in 0.43 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-06-23 13:29:00.807 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 13:35:01.843
+!MESSAGE Indexed '15_pthread' (1 sources, 47 headers) in 1.12 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12f70e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12f70e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19c52f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19c52f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b6fcd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d90e37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d90e37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3473ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@196cda5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@196cda5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1971de4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2b648c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2b648c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d658c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5d24e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5d24e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12050ca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@980fca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@980fca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@134a677,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19cd774,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19cd774,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@50cc8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 14:05:13.480
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18a3c3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18a3c3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@781509,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 14:32:36.025
+!MESSAGE Indexed '16_thread' (1 sources, 47 headers) in 0.37 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 15:06:00.462
+!MESSAGE Indexed '17_thread_mutex' (1 sources, 47 headers) in 0.30 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 15:31:37.102
+!MESSAGE Indexed '18_thread' (1 sources, 47 headers) in 0.28 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 15:47:18.023
+!MESSAGE Indexed '19_thread' (1 sources, 47 headers) in 0.32 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-06-23 16:18:15.519 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14d3767,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14d3767,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@706373,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@706373,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@914fc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bf421,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bf421,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c8cfaf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1bb281c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1bb281c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@466b0e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11e8d4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11e8d4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@cf1c41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@148283c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@148283c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@49ac02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bbf606,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bbf606,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1542dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d8e12a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d8e12a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1a6aa11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 16:20:19.146
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e769ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e769ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@dabfa9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 17:02:11.587
+!MESSAGE Indexed '20_server' (1 sources, 47 headers) in 0.73 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 17:24:51.706
+!MESSAGE Indexed '20_client' (0 sources, 36 headers) in 0.21 sec: 715 declarations; 917 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 17:25:24.077
+!MESSAGE Indexed '20_client' (1 sources, 47 headers) in 0.40 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 17:43:43.678
+!MESSAGE Indexed '21_gethostname' (1 sources, 47 headers) in 0.32 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jface 2 0 2013-06-23 18:09:04.569
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-23 18:09:04.569
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1ada368,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c32cc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2013-06-23 19:04:59.140 -----------------------------------------------
+eclipse.buildId=v22.0.1-685705
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-06-23 19:10:36.510
+!MESSAGE Indexed '22_http' (1 sources, 47 headers) in 1.23 sec: 1,466 declarations; 1,888 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

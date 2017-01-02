@@ -1,0 +1,14 @@
+package com.mingzz.code;
+
+public class TestNative {
+
+	public native void sayHello();
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

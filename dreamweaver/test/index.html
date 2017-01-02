@@ -1,0 +1,113 @@
+<html>
+<head>
+<link href="main.css" rel="Stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>MingZz</h1>
+<ul>
+  <li> <a href="#">首页</a></li>
+  <li> <a href="#">公司简介</a></li>
+  <li> <a href="#">产品展示</a></li>
+  <li> <a href="#">网上商店</a></li>
+  <li> <a href="#">联系我们</a></li>
+</ul>
+<div id="main">
+<p>Dos常用命令 </p>
+<p>1 </p>
+<p> dir </p>
+<p> 列文件名 </p>
+<p>edit  文本编辑 </p>
+<p>mem  查看内存状况  cls清屏</p>
+<p> 〔适用场合〕  屏幕上太乱了，或是屏幕上出现乱码了， 清除屏幕上显示内</p>
+<p>容但不影响电脑内部任何信息 〔用  法〕  cls  回车    move </p>
+<p> 移动文件，改目录名  〔适用场合〕  移动文件到别的目录 〔用  法〕 </p>
+<p>move [文件名] [目录]  移动文件至新目录下move [目录名] [目录名] </p>
+<p>改目录名 〔例  子〕 </p>
+<p>c:\&gt;move c:\autoexec.bat c:\old  移动autoexec.bat文件至old目录下 </p>
+<p>c:\&gt;move c:\config.sys c:\temp  移动config.sys文件至old目录下    xcopy   拷贝目录和文件</p>
+<p> 〔适用场合〕  在进行连同子目录一起拷贝时很有用，</p>
+<p>在拷贝大量文件时比COPY命令要快得多 〔用  法〕 </p>
+<p>xcopy [文件名] [目录]将指定文件拷贝到指定目录 </p>
+<p>xcopy [源目录] [目的目录]  将源目录连子目录考到目的目录下 </p>
+<p>xcopy *.* [目录] /s   将文件与非空子目录拷贝到指定目录 </p>
+<p>其它常用参数还有: v 拷贝后校验，会影响速度 e 与s 相似，但即使子目录是空的也会拷</p>
+<p>贝。  date </p>
+<p>显示及修改日期 〔适用场合〕  想知道或修改时间和日期 〔用  法〕 </p>
+<p>date 显示和改变当前日期 </p>
+<p>〔例  子〕  C:\&gt;date 09-20-1996 将日期改为1996年9月20日 C:\&gt;date  Current date </p>
+<p>is Tue 08-20-1996   Enter new date (mm-dd-yy):09-20-1996 按月-日-年的顺序修改当前</p>
+<p>日期 直接按回车键忽略修改日期    defrag  磁盘碎片整理</p>
+<p> 〔适用场合〕  磁盘读写次数很多，或磁盘使用时间很</p>
+<p>长了，可能需要使用这条命令整理磁盘。磁盘碎片并不是指磁盘坏了，而只是由于多次的拷</p>
+<p>贝和删除文件后，磁盘使用会很不连贯，致使速度变慢。 〔用  法〕 </p>
+<p>1. C:\&gt;defrag 2. 选择要整理的磁盘    fdisk </p>
+<p> 硬盘分区 〔建  议〕  只有硬盘被很利害的病毒感染时，或是一块新</p>
+<p>硬盘才需要分区，最好请懂行的人指导。硬盘都需经过低级格式化，分区，格式化三个步骤</p>
+<p>才可使用，成品电脑内的硬盘都已经做过这些加工了。 </p>
+<p>〔用  法〕  输入fdisk后按回车即可进入提示界面    prompt  设置提示符</p>
+<p> 〔适用场合〕  当你厌烦了c:\&gt;的提示符或者您想使您的</p>
+<p>提示符与众不同时，您可以试一试，非常有趣的DOS命令，可以随时显示时间与日期。 〔用 </p>
+<p>法〕  prompt $p$g 以当前目录名和&gt;号为提示符，这是最常用的提示符 </p>
+<p>prompt $t 表示时间 prompt $d 表示日期  prompt $$ 表示$  prompt $q 表示= </p>
+<p>prompt $v 表示当前版本prompt $l 表示&lt; prompt $b 表示|   prompt $h 表示退位符 </p>
+<p>prompt $e 表示Esc代表的字符  prompt $_ 表示回车换行 〔例  子〕 </p>
+<p>C:\DOS&gt;prompt wang$g 将wang&gt;作为提示符 Dos常用命令 </p>
+<p>2 </p>
+<p> WANG&gt;prompt $t$d$g </p>
+<p> 使用时间、日期和&gt;号做为提示符 0:01:07.77Thu </p>
+<p>08-29-1996&gt;prompt $p$gC:\DOS&gt;     set设置环境变量</p>
+<p> 〔适用场合〕  设置声卡和路径等时用到 〔用  法〕  set [环</p>
+<p>境变量]=[字符串]这条命令常常用在autoexec.bat中 〔例  子〕  C:\&gt;set blaster=a220 i5 </p>
+<p>d1设置声卡的参数  C:\&gt;set path=c:\dos  path c:\dos含义相同   append设置非执行文件的路径</p>
+<p> 〔适用场合〕  当您无法在多个目录中寻找到自</p>
+<p>己输入的文稿时，可以试一试这个命令，用法类似path。 〔用  法〕  append [路径];[路</p>
+<p>径] 〔例  子〕  C:\&gt;append </p>
+<p>c:\test设置寻找非可执行文件路径为c:\test如果该目录下有文件1.txt时，在其它目录下调</p>
+<p>用1.txt找不到时，可自动寻找到c:\test目录。D:\UCDOS&gt;edit 1.txt 可找到C:\test\1.txt文件  diskcomp  比较磁盘</p>
+<p> 〔适用场合〕比较两张盘是否相同，没想到什么时候会用</p>
+<p>到，在比较用diskcopy拷贝的两张盘，为什么不用diskcopy/v校验呢？ 〔用  法〕 </p>
+<p>diskcomp [盘符1] [盘符2] 比较盘1和盘2 diskcomp /1 只比较磁盘的第一面 diskcomp /8 </p>
+<p>只比较没磁道的前8个扇区 〔例  子〕  C:\&gt;diskcomp a: a:  在同一软驱中比较两张</p>
+<p>盘Insert FIRST diskette in drive A:放入第一张盘 Press any key to continue . . . </p>
+<p>Comparing 80 tracks 18 sectors per track, 2 side(s)    Insert SECOND diskette in drive A: </p>
+<p>放入第二张盘 Press any key to continue . . . Compare OK比较未发现不同 Compare another </p>
+<p>diskette (Y/N) ?n是否比较其它盘，选y继续比较，选n停止   expand解压工具</p>
+<p> 〔适用场合〕  微软公司软件原始安装盘中有许多后缀以&quot;_&quot;结</p>
+<p>尾的压缩文件，可以用它解压，解除您因为少数几个文件丢失造成的麻烦。 〔用  法〕 </p>
+<p>expand [源文件名] [目的文件] 〔例  子〕  C:\&gt;expand a:vsafe.co_ c:\dos\vsafe.com  解</p>
+<p>压vsafe.co_为vsafe.com文件 Microsoft (R) File Expansion Utility Version 2.10 Copyright (C) </p>
+<p>Microsoft Corp 1990-1993. All rights reserved.   Expanding a:vsafe.co_ to c:\dos\vsafe.com. </p>
+<p>a:vsafe.co_:  33046 bytes expanded to 62576 bytes, 89% increase. C:\DOS&gt;    setver </p>
+<p> 设置版本 〔适用场合〕  当希望使用其它版本的dos命令时可以用它来</p>
+<p>欺骗电脑。在高版本DOS中，某些旧版本程序需要DOS3.3时，可用setver来设置 〔用  法〕 </p>
+<p>使用时一般在config.sys中加入 device=setver.exe setver 显示文件的版本setver [文件名] </p>
+<p>n.nn   设置指定文件的版本号 〔例  子〕 C:\DOS&gt;setver KERNEL.EXE 5.00 </p>
+<p>DOSOAD.SYS 5.00 EDLIN.EXE 5.00 BACKUP.EXE 5.00 ASSIGN.COM 5.00 EXE2BIN.EXE 5.00 </p>
+<p>JOIN.EXE 5.00 RECOVER.EXE 5.00 WINWORD.EXE 4.10 C:\&gt; 若程序AAA.exe必须在</p>
+<p>MS-DOS3.3下执行，则键入C:\DOS&gt;setver aaa.exe 3.30又如net5.exe仅在MS-DOS5.0下执行，</p>
+<p>则在config.sys中加入 device=setver.exe后也可在Ms-DOS6.22下运行。  share文件共享</p>
+<p> 〔建  议〕只有在软件声明必须要运行它时才用 〔用  法〕  可</p>
+<p>在config.sys中加入 install=share.exe 也可直接运行参数有 f l    subst 路径替换</p>
+<p> 〔建  议〕一个非常有趣的命令，如果经常用光碟软件，可能有</p>
+<p>用。 〔用  法〕  subst显示当前的替代路径 subst [盘符] [路径] 将指定的路径替代盘</p>
+<p>符，该路径将作为驱动器使用 subst /b解除替代 〔例  子〕C:\DOS&gt;subst a: c:\temp 用cDos常用命令 </p>
+<p>3 </p>
+<p> 盘</p>
+<p>temp目录替代a盘 C:\&gt;subst a: /d 解除替代    tree  显示命令树结构 〔适用场合〕 查看所有的子目录 〔用  法〕 tree [盘符] </p>
+<p>显示所有的子目录树 </p>
+<p>tree /f显示目录时同时显示文件名 </p>
+<p>tree /a  以ASCII码显示目录树 〔例  子〕  C:\WINDOWS&gt;tree /a  unformat 恢复</p>
+<p>已被格式化的磁盘 〔建  议〕你把有重要信息的软盘格式化了?快用unformat……什么?</p>
+<p>你用了 format /u，那死定了 〔用  法〕  unformat [盘符]    恢复指定的被格式</p>
+<p>化的磁盘 unformat /l显示unformat所找到的文件名 〔例  子〕 </p>
+<p>C:\WINDOWS&gt;unformat a:    ver  显示</p>
+<p>DOS版本 〔例  子〕  C:\&gt;ver  MS-DOS Version 6.22 C:\&gt;  vol 显示指定的磁盘卷标号 〔例  子〕  C:\&gt;vol   Volume in drive C is Wang </p>
+<p>Volume Serial Number is 2116-1DD0 C:\&gt; </p>
+<p>&nbsp;</p>
+</div>
+<div id="border">
+<p>qqqqqqq</p>
+</div>
+</body>
+</html>

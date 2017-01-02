@@ -1,0 +1,21 @@
+package com.mingzz.xmppclient;
+
+import org.jivesoftware.smack.*;
+
+public class XMPPClient {
+	// Á¬½Ó
+	public static XMPPConnection getConnection(String domain) throws XMPPException {  
+	      
+	     XMPPConnection connection = new XMPPConnection(domain);  
+	     connection.connect();  
+	     return connection;  
+	}  
+	public static XMPPConnection getConnection(String domain,int port) throws XMPPException {  
+	     ConnectionConfiguration config = new ConnectionConfiguration(domain,port);  
+	     XMPPConnection connection = new XMPPConnection(config);  
+	     connection.connect();  
+	     return connection;  
+	}  
+	
+
+}

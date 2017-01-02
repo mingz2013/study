@@ -1,0 +1,181 @@
+package com.mingzz.xmppclient;
+
+import java.awt.Image;
+import java.io.ByteArrayInputStream;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
+
+import org.jivesoftware.smack.*;
+import org.jivesoftware.smack.packet.*;
+import org.jivesoftware.smackx.packet.VCard;
+
+public class XMPPClient {
+	// 连接
+	public static XMPPConnection getConnection(String domain) throws XMPPException {  
+	      
+	     XMPPConnection connection = new XMPPConnection(domain);  
+	     connection.connect();  
+	     return connection;  
+	}  
+	public static XMPPConnection getConnection(String domain,int port) throws XMPPException {  
+	     ConnectionConfiguration config = new ConnectionConfiguration(domain,port);  
+	     XMPPConnection connection = new XMPPConnection(config);  
+	     connection.connect();  
+	     return connection;  
+	}  
+	/** 
+     * 注册用户 
+     * @param connection 
+     * @param regUserName 
+     * @param regUserPwd 
+     * @return 
+     */  
+    public static boolean createAccount(XMPPConnection connection,String regUserName,String regUserPwd)  
+    {  
+        try {  
+            connection.getAccountManager().createAccount(regUserName, regUserPwd);  
+            return true;  
+        } catch (Exception e) {  
+            return false;  
+        }  
+    }  
+    /** 
+     * 删除当前用户 
+     * @param connection 
+     * @return 
+     */  
+    public static boolean deleteAccount(XMPPConnection connection)  
+    {  
+        try {  
+            connection.getAccountManager().deleteAccount();  
+          
+            return true;  
+        } catch (Exception e) {  
+            return false;  
+        }  
+    }  
+     
+    /** 
+     * 删除修改密码 
+     * @param connection 
+     * @return 
+     */  
+    public static boolean changePassword(XMPPConnection connection,String pwd)  
+    {  
+        try {  
+            connection.getAccountManager().changePassword(pwd);  
+          
+            return true;  
+        } catch (Exception e) {  
+            return false;  
+        }  
+    }  
+    
+    /**
+     * 发送消息**/
+    public static void sendMessage(Chat chat,String message) throws XMPPException {  
+        chat.sendMessage(message);  
+    }  
+      
+    public static void sendMessage(Chat chat,Message message) throws XMPPException {  
+        chat.sendMessage(message);  
+    }  
+    
+    
+    
+    /** 
+     * 返回所有组信息 <RosterGroup> 
+     *  
+     * @return List(RosterGroup) 
+     */  
+    public static List<RosterGroup> getGroups(Roster roster) {  
+        List<RosterGroup> groupsList = new ArrayList<RosterGroup>();  
+        Collection<RosterGroup> rosterGroup = roster.getGroups();  
+        Iterator<RosterGroup> i = rosterGroup.iterator();  
+        while (i.hasNext())  
+            groupsList.add(i.next());  
+        return groupsList;  
+    }  
+  
+    /** 
+     * 返回相应(groupName)组里的所有用户<RosterEntry> 
+     *  
+     * @return List(RosterEntry) 
+     */  
+    public static List<RosterEntry> getEntriesByGroup(Roster roster,  String groupName) {  
+        List<RosterEntry> EntriesList = new ArrayList<RosterEntry>();  
+        RosterGroup rosterGroup = roster.getGroup(groupName);  
+        Collection<RosterEntry> rosterEntry = rosterGroup.getEntries();  
+        Iterator<RosterEntry> i = rosterEntry.iterator();  
+        while (i.hasNext())  
+            EntriesList.add(i.next());  
+        return EntriesList;  
+    }  
+  
+    /** 
+     * 返回所有用户信息 <RosterEntry> 
+     *  
+     * @return List(RosterEntry) 
+     */  
+    public static List<RosterEntry> getAllEntries(Roster roster) {  
+        List<RosterEntry> EntriesList = new ArrayList<RosterEntry>();  
+        Collection<RosterEntry> rosterEntry = roster.getEntries();  
+        Iterator<RosterEntry> i = rosterEntry.iterator();  
+        while (i.hasNext())  
+            EntriesList.add(i.next());  
+        return EntriesList;  
+    }  
+    
+    /** 
+     * 获取用户的vcard信息 
+     * @param connection 
+     * @param user 
+     * @return 
+     * @throws XMPPException 
+     */  
+    public static VCard getUserVCard(XMPPConnection connection, String user) throws XMPPException  
+    {  
+        VCard vcard = new VCard();  
+        vcard.load(connection, user);  
+          
+        return vcard;  
+    }  
+  
+    /** 
+     * 获取用户头像信息 
+     */  
+    public static ImageIcon getUserImage(XMPPConnection connection, String user) {  
+        ImageIcon ic = null;  
+        try {  
+            System.out.println("获取用户头像信息: "+user);  
+            VCard vcard = new VCard();  
+            vcard.load(connection, user);  
+              
+            if(vcard == null || vcard.getAvatar() == null)  
+            {  
+                return null;  
+            }  
+            ByteArrayInputStream bais = new ByteArrayInputStream(  
+                    vcard.getAvatar());  
+            Image image = ImageIO.read(bais);  
+      
+              
+            ic = new ImageIcon(image);  
+            System.out.println("图片大小:"+ic.getIconHeight()+" "+ic.getIconWidth());  
+          
+        } catch (Exception e) {  
+            e.printStackTrace();  
+        }  
+        return ic;  
+    }  // getUserImage
+  
+ 
+ 
+	
+
+}
