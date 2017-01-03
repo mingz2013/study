@@ -1,7 +1,7 @@
 @echo off
 
 color 2b
-title by Ã÷×Ó QQ305603665
+title by
 :age
 cls
 set age=null
@@ -9,25 +9,25 @@ set name=null
 set choi=null
 set choi1=null
 echo ++++++++++++++++++++++++++++++++++++++++++
-set /p age=ÄúµÄÄêÁä£º
+set /p age=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä£º
 if "%age%"=="null" goto age
 :name
-set /p name=ÄúµÄÐÕÃû£º
+set /p name=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 if "%name%"=="null" goto name
 :echo
-echo ÄúµÄÄêÁä %age% ,ÄãµÄÐÕÃû %name% 
-set /p choi=ÊÇ·ñÖØÐÂÊäÈë[Y£¬N]£¿
+echo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %age% ,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %name% 
+set /p choi=ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[Yï¿½ï¿½N]ï¿½ï¿½
 if "%choi%"=="y" goto age
 if "%choi%"=="n" goto retu
 if "%choi%"=="null" goto echo
 :retu
-echo ÐÕÃû£º%age%£»ÄêÁä£º%name% >>test.txt
-set /p choi1=ÄúµÄÐÅÏ¢ÒÑ±£´æÔÚtest.txtÖÐ£¬ÊÇ·ñ¼ÌÐøÊäÈë[Y,N]?
+echo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%age%ï¿½ï¿½ï¿½ï¿½ï¿½ä£º%name% >>test.txt
+set /p choi1=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Ñ±ï¿½ï¿½ï¿½ï¿½ï¿½test.txtï¿½Ð£ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[Y,N]?
 if "%choi1%"=="y" goto age
 if "%choi1%"=="n" goto end
 if "%choi1%"=="null" goto retu
 :end
-echo Çë°´ÈÎÒâ¼üÍË³ö
+echo ï¿½ë°´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½
 pause>nul
 color
 cls

@@ -1,9 +1,9 @@
-package mingzipackage;
+package letpackage;
 
-public class Test {// ¿ì½İ¼ü Alt + / ÌáÊ¾ÖúÊÖ  £¬      	
-					// ctrl + D É¾³ıÕûĞĞ
-					// ctrl + Z ³·Ïú
-					// ctrl + Y ÖØ×ö
+public class Test {// ï¿½ï¿½İ¼ï¿½ Alt + / ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½      	
+					// ctrl + D É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+					// ctrl + Z ï¿½ï¿½ï¿½ï¿½
+					// ctrl + Y ï¿½ï¿½ï¿½ï¿½
 
 	/**
 	 * @param args

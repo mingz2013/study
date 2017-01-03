@@ -8,37 +8,37 @@
 
 #pragma comment(lib,"WS2_32.lib")
 
-#define BUF_SIZE 1024   // »º³åÇø´óÐ¡
-#define PORT 27015     // ¼àÌý¶Ë¿Ú
-#define GROUPADDR "224.0.0.1" // ×é²¥µØÖ·
-#define MARK "lc" // Êý¾ÝÆðÊ¼Á½¸ö×Ö·û
+#define BUF_SIZE 1024   // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
+#define PORT 27015     // ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿ï¿½
+#define GROUPADDR "224.0.0.1" // ï¿½é²¥ï¿½ï¿½Ö·
+#define MARK "lc" // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
 
 
 
 char GroupAddr[] = GROUPADDR;
 
-SOCKET Socket;  // ¼àÌýÌ×½Ó×Ö
-sockaddr_in RecvAddr; // Ô¶¶Ë·þÎñÆ÷µØÖ·£¬ÓÃÓÚ½ÓÊÕÊý¾Ý
-int RecvAddrSize; // ·µ»ØµÄ´óÐ¡£¬
-sockaddr_in SendAddr; // Ô¶¶Ë·þÎñÆ÷µØÖ·£¬ÓÃÓÚ·¢ËÍÊý¾Ý
+SOCKET Socket;  // ï¿½ï¿½ï¿½ï¿½ï¿½×½ï¿½ï¿½ï¿½
+sockaddr_in RecvAddr; // Ô¶ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+int RecvAddrSize; // ï¿½ï¿½ï¿½ØµÄ´ï¿½Ð¡ï¿½ï¿½
+sockaddr_in SendAddr; // Ô¶ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //int RecvAddrSize = sizeof(RecvAddr);
-sockaddr_in ServAddr; // ±¾µØ·þÎñÆ÷µØÖ·,ÓÃÓÚ°ó¶¨±¾µØip
-char LocalIP[15]; // ±¾»úip
-char hostname[256]; // ±¾»úÃû×Ö
-char SendIP[15]; // ·¢ËÍip
-char buf[BUF_SIZE]; // »º³åÇø
-int iResult; // ´íÎó´úÂë
-char AddrList[100][32]; // Ö÷»úÁÐ±í
-char localstate[4] ;// Ö÷»ú×´Ì¬ lgin(ÔÚÏß) lout(ÀëÏß) chat(ÁÄÌìÖÐ)  
-HANDLE hThreadRecv; // ½ÓÊÕÏß³Ì 
+sockaddr_in ServAddr; // ï¿½ï¿½ï¿½Ø·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·,ï¿½ï¿½ï¿½Ú°ó¶¨±ï¿½ï¿½ï¿½ip
+char LocalIP[15]; // ï¿½ï¿½ï¿½ï¿½ip
+char hostname[256]; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+char SendIP[15]; // ï¿½ï¿½ï¿½ï¿½ip
+char buf[BUF_SIZE]; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+int iResult; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+char AddrList[100][32]; // ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½
+char localstate[4] ;// ï¿½ï¿½ï¿½ï¿½×´Ì¬ lgin(ï¿½ï¿½ï¿½ï¿½) lout(ï¿½ï¿½ï¿½ï¿½) chat(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)  
+HANDLE hThreadRecv; // ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ 
 
 
 
-// ¶¨ÒåÊý¾Ý¸ñÊ½
-// "lc"+ÃüÁîËÄ¸ö×Ö½Ú+Êý¾Ý²¿·Ö
-// ÃüÁîËÄ¸ö×Ö½Ú£ºasks(ÇëÇóÁÄÌì),  agre(Í¬ÒâÁÄÌì)£¬deny(¾Ü¾øÁÄÌì)£¬quit(ÍË³öÁÄÌì)£¬msgs(ÁÄÌìÊý¾Ý)£¬
-// lgin(Ö÷»úÉÏÏß)£¬lout(Ö÷»úÏÂÏß)£¬olin(Ö÷»úÔÚÏß);
-// Êý¾Ý²¿·Ö
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½Ê½
+// "lc"+ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½Ö½ï¿½+ï¿½ï¿½ï¿½Ý²ï¿½ï¿½ï¿½
+// ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½Ö½Ú£ï¿½asks(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½),  agre(Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½deny(ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½quit(ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½msgs(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½
+// lgin(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½lout(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½olin(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½);
+// ï¿½ï¿½ï¿½Ý²ï¿½ï¿½ï¿½
 
 
 
@@ -47,7 +47,7 @@ void sendmsg(char ip[],char buf[BUF_SIZE])
 {
 	char buf2[BUF_SIZE] = MARK;
 	strcat(buf2,buf);
-	printf("·¢ËÍµÄÐÅÏ¢£º%s\n",buf2);
+	printf("ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½Ï¢ï¿½ï¿½%s\n",buf2);
 	
 	SendAddr.sin_addr.S_un.S_addr = inet_addr(ip);
 	
@@ -57,9 +57,9 @@ void sendmsg(char ip[],char buf[BUF_SIZE])
 
 
 void chat(char ip[])
-{//¿ªÊ¼ÁÄÌì
+{//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½
 	void quitchat(char ip[]);
-	// ³õÊ¼»¯
+	// ï¿½ï¿½Ê¼ï¿½ï¿½
 	strcpy(localstate,"chat");
 	//localstate = "chat";
 	system("cls");
@@ -88,7 +88,7 @@ void chat(char ip[])
 		}
 		else if(strcmp(msg,"") == 0)
 		{
-			// ÊäÈëÎª¿Õ
+			// ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½
 			continue;
 		}
 		else
@@ -108,25 +108,25 @@ void chat(char ip[])
 	
 }
 void denychat(char ip[])
-{// ¾Ü¾øÁÄÌì
+{// ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½
 	char msg[] = "deny"; 
 	sendmsg(ip,msg);
 	return;
 	
 }
 void agrechat(char ip[])
-{//Í¬ÒâÁÄÌì
+{//Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	char msg[BUF_SIZE] = "agre";
 	sendmsg(ip,msg);
 	chat(ip);
 }
 
 void doasks(char ip[])
-{//´¦ÀíÁÄÌìÇëÇó
+{//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	void doasks(char ip[]);
 	
 	
-	printf("%s ÏëÒªºÍÄãÁÄÌì£¬Í¬Òâ»Ø¸´y/Y,²»Í¬Òâ»Ø¸´n/N\r\n",ip);
+	printf("%s ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì£¬Í¬ï¿½ï¿½Ø¸ï¿½y/Y,ï¿½ï¿½Í¬ï¿½ï¿½Ø¸ï¿½n/N\r\n",ip);
 	char yesno ;
 	scanf("%c",&yesno);
 	switch(yesno)
@@ -136,7 +136,7 @@ void doasks(char ip[])
 	case'y':
 	case'Y':agrechat(ip);break;
 	default:
-		printf("ÊäÈëÓÐÎó£¬ÇëÖØÐÂÊäÈë\n");
+		printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 		doasks(ip);
 	}
 	return;
@@ -144,7 +144,7 @@ void doasks(char ip[])
 	
 }
 void doquit(char ip[])
-{// ±»¶¯ÍË³öÁÄÌì
+{// ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½
 	//void help();
 	//closesocket();
 	//char msg[] = "quit";
@@ -152,13 +152,13 @@ void doquit(char ip[])
 	//localstate = "login";
 	strcpy(localstate,"lgin");
 	ZeroMemory(SendIP,15);
-	printf("%sÒÑÍË³ö£¬ÈÎÒâ¼ü·µ»Ø\n",ip);
+	printf("%sï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n",ip);
 	char ch;
 	getchar(ch);
 	/*
 	system("mode con:cols=80 lines=40"); 
 	system("cls");
-	printf("{{{{{{{{{{{{{{{{{¾ÖÓòÍøÁÄÌì}}}}}}}}}}}}}}}}}\n\n");
+	printf("{{{{{{{{{{{{{{{{{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}}}}}}}}}}}}}}}}}\n\n");
 	help();
 	*/
 	return ;
@@ -170,30 +170,30 @@ void doquit(char ip[])
 
 
 
-// ´¦Àí½ÓÊÕµ½µÄÊý¾Ý
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 void dobuf(char buf[BUF_SIZE],sockaddr_in RecvAddr)
 {
 	
-	//´¦Àí½ÓÊÕµ½µÄÊý¾Ý
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	char str1[30];
 	
 	ZeroMemory(str1,30);
 	strncpy(str1,buf,2);
 	if(strcmp(str1,MARK) == 0)
-	{  // ÊÇÓÐÐ§Êý¾Ý
+	{  // ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½
 		char TempIP[15];
 		strcpy(TempIP,inet_ntoa(RecvAddr.sin_addr));
 		if(RecvAddr.sin_addr.S_un.S_addr == inet_addr(GroupAddr))
-		{ // ÊÇ×¨ÓÃ¹ã²¥µØÖ·
+		{ // ï¿½ï¿½×¨ï¿½Ã¹ã²¥ï¿½ï¿½Ö·
 			ZeroMemory(str1,30);
-			strncpy(str1,buf+2,4); // ½«buf4¸öÃüÁî×Ö·û¸´ÖÆµ½str1ÖÐ
+			strncpy(str1,buf+2,4); // ï¿½ï¿½buf4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Æµï¿½str1ï¿½ï¿½
 			if(strcmp(str1,"lgin") == 0)
-			{// ÓÐÓÃ»§¼ÓÈëjoin.....,,,È¡µÃÆäip£¬¼ÓÈëÔÚÏßÖ÷»úÁÐ±í£¬²¢¹ã²¥×Ô¼ºÔÚÏß
+			{// ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½join.....,,,È¡ï¿½ï¿½ï¿½ï¿½ipï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ã²¥ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½
 				ZeroMemory(str1,30);
-				strncpy(str1,buf+6,24); // È¡³öµÚ6¸ö×Ö·ûÒÔºóµÄ£¬´ÓµÚÎå¸ö¿ªÊ¼
-				strcpy(AddrList[sizeof(AddrList)],str1);// ½«Ö÷»ú¼ÓÈëÁÐ±í
-				// ´ò¿ª·þÎñÆ÷£¬¹ã²¥½øÈë
-				printf("ÔÚÏßÉùÃ÷¡£¡£¡£¡£¡£..\n");
+				strncpy(str1,buf+6,24); // È¡ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Ôºï¿½Ä£ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼
+				strcpy(AddrList[sizeof(AddrList)],str1);// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½
+				// ï¿½ò¿ª·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã²¥ï¿½ï¿½ï¿½ï¿½
+				printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..\n");
 				char olin[30] = "olin";
 				strcat(olin,LocalIP);  
 				//sendto(Socket,ipjoin,14,0,(SOCKADDR*)&RecvAddr,RecvAddrSize);
@@ -201,13 +201,13 @@ void dobuf(char buf[BUF_SIZE],sockaddr_in RecvAddr)
 				return;
 			}
 			else if(strcmp(str1,"lout") == 0)
-			{// ÓÐÖ÷»úÍË³ö.........£¬ÔÚÁÐ±íÖÐÑ°ÕÒ¸Ãip£¬ÈôÕÒµ½£¬É¾³ý£¬ÕÒ²»µ½£¬²»×÷´¦Àí
+			{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½.........ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ñ°ï¿½Ò¸ï¿½ipï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				ZeroMemory(str1,30);
-				strncpy(str1,buf+6,24); // È¡³öµÚËÄ¸ö×Ö·ûÒÔºóµÄ£¬´ÓµÚÎå¸ö¿ªÊ¼
+				strncpy(str1,buf+6,24); // È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½Ö·ï¿½ï¿½Ôºï¿½Ä£ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼
 				int j = -1;
 				for(int i = 0;i < sizeof(AddrList) ;i++)
 				{
-					if(strcmp(str1,AddrList[i]) == 0)// ÕÒµ½Ö÷»ú
+					if(strcmp(str1,AddrList[i]) == 0)// ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½
 					{
 						j = i;
 						break;
@@ -231,13 +231,13 @@ void dobuf(char buf[BUF_SIZE],sockaddr_in RecvAddr)
 				
 			}
 			else if(strcmp(str1,"olin") == 0)
-			{// ÓÐÖ÷»úÔÚÏß£¬²éÕÒÁÐ±í£¬Èç¹ûÃ»ÓÐ£¬ÔòÌí¼Ó
+			{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				ZeroMemory(str1,30);
-				strncpy(str1,buf+6,24); // È¡³öµÚ6¸ö×Ö·ûÒÔºóµÄ£¬´ÓµÚÎå¸ö¿ªÊ¼
+				strncpy(str1,buf+6,24); // È¡ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Ôºï¿½Ä£ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼
 				int j = -1;
 				for(int i = 0;i < sizeof(AddrList) ;i++)
 				{
-					if(strcmp(str1,AddrList[i]) == 0)// ÕÒµ½Ö÷»ú
+					if(strcmp(str1,AddrList[i]) == 0)// ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½
 					{
 						j = i;
 						break;
@@ -245,57 +245,57 @@ void dobuf(char buf[BUF_SIZE],sockaddr_in RecvAddr)
 					}
 					
 				}
-				if(j = -1) // Ã»ÕÒµ½
+				if(j = -1) // Ã»ï¿½Òµï¿½
 				{
-					strcpy(AddrList[sizeof(AddrList)],str1);// ½«Ö÷»ú¼ÓÈëÁÐ±í
+					strcpy(AddrList[sizeof(AddrList)],str1);// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½
 					return;
 				}
 				return;
 			}
 			else
-			{ // ²»ÊÇÓÐÐ§ÃüÁî£¬²»×÷´¦Àí
+			{ // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				return;
 			}
 			return;
 			
 		}
 		else
-		{// ²»ÊÇ×¨ÓÃ¹ã²¥µØÖ·£¬ÊÇÓÃ»§Êý¾Ý
+		{// ï¿½ï¿½ï¿½ï¿½×¨ï¿½Ã¹ã²¥ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½
 			strcmp(SendIP,TempIP);
 			
 			ZeroMemory(str1,30);
-			strncpy(str1,buf+2,4); // ½«buf4¸öÃüÁî×Ö·û¸´ÖÆµ½str1ÖÐ
+			strncpy(str1,buf+2,4); // ï¿½ï¿½buf4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Æµï¿½str1ï¿½ï¿½
 			if(strcmp(str1,"asks") == 0)
-			{// ÁÄÌìÇëÇó
+			{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				doasks(TempIP);
 				return;
 			}
 			else if(strcmp(str1,"agre") == 0)
-			{//¶Ô·½ Í¬ÒâÁÄÌì
+			{//ï¿½Ô·ï¿½ Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				chat(TempIP);
 				return;
 			}
 			else if(strcmp(str1,"deny") == 0)
-			{// ¶Ô·½¾Ü¾øÁÄÌì
-				printf("--%s ¾Ü¾øÁËÄúµÄÁÄÌìÇëÇó \n",TempIP);
+			{// ï¿½Ô·ï¿½ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½
+				printf("--%s ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \n",TempIP);
 				return;
 			}
 			else if(strcmp(str1,"quit") == 0)
-			{// ¶Ô·½ÍË³öÁÄÌìÁÄÌì
+			{// ï¿½Ô·ï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				doquit(TempIP);
 				return;
 			}
 			else if(strcmp(str1,"msgs") == 0)
-			{// ÁÄÌìÊý¾Ý
-				printf("½ÓÊÕµ½µÄÁÄÌìÊý¾Ý---%s---\n",buf);
+			{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+				printf("ï¿½ï¿½ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½---%s---\n",buf);
 				char buf3[BUF_SIZE] ;
 				ZeroMemory(buf3,BUF_SIZE);
 				strncpy(buf3,buf+6,BUF_SIZE - 6); 
-				printf("½Óµ½À´×Ô%sµÄÐÅÏ¢£º%s\n",TempIP,buf3);
+				printf("ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½%sï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½%s\n",TempIP,buf3);
 				return;
 			}
 			else
-			{// ´íÎóÃüÁî£¬²»×÷´¦Àí
+			{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				return;
 				
 			}
@@ -304,28 +304,28 @@ void dobuf(char buf[BUF_SIZE],sockaddr_in RecvAddr)
 		return;
 	}
 	else
-	{// ²»ÊÇÓÐÐ§Êý¾Ý,²»×ö´¦Àí
+	{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		return ;
 	}
 	return;
 }
 
 DWORD WINAPI receive(LPVOID lpParameter)
-{// ½ÓÊÕÊý¾Ý
+{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	DWORD WINAPI receive(LPVOID lpParameter);
-	// µ÷ÓÃrecvfrom() º¯ÊýÔÚ°ó¶¨µÄSocketÉÏ½ÓÊÕÊý¾Ý
-	printf("½øÈë½ÓÊÕÊý¾Ýº¯Êý.....\n");
+	// ï¿½ï¿½ï¿½ï¿½recvfrom() ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ó¶¨µï¿½Socketï¿½Ï½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýºï¿½ï¿½ï¿½.....\n");
 	
-	RecvAddr.sin_addr.S_un.S_addr = inet_addr("");; // Ô¶¶Ë·þÎñÆ÷µØÖ·£¬ÓÃÓÚ½ÓÊÕÊý¾Ý
-	RecvAddrSize = sizeof(RecvAddr); // ·µ»ØµÄ´óÐ¡£¬
-	printf("ÇåÁãµØÖ·µÈ´ý½ÓÊÕÊý¾Ý.....\n");
+	RecvAddr.sin_addr.S_un.S_addr = inet_addr("");; // Ô¶ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	RecvAddrSize = sizeof(RecvAddr); // ï¿½ï¿½ï¿½ØµÄ´ï¿½Ð¡ï¿½ï¿½
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.....\n");
 	
-	recvfrom(Socket,buf,BUF_SIZE,0,(SOCKADDR*)&RecvAddr,&RecvAddrSize);//MSG_WAITALL ÉèÖÃ×èÈû²Ù×÷£¬¾ÍÊÇ½ÓÊÕ²»µ½Êý¾Ý¾ÍµÈ´ý
-	printf("µÈ´ý½ÓÊÕÊý¾Ý....½ÓÊÜµ½µÄÊý¾Ý£º-----%s----.\n",buf);
+	recvfrom(Socket,buf,BUF_SIZE,0,(SOCKADDR*)&RecvAddr,&RecvAddrSize);//MSG_WAITALL ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½Õ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¾ÍµÈ´ï¿½
+	printf("ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½....ï¿½ï¿½ï¿½Üµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½-----%s----.\n",buf);
 	
-	// ´¦ÀíÊý¾Ý
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	dobuf(buf,RecvAddr);
-	printf("´¦ÀíÍêÊý¾Ý£¬.....\r\n");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½.....\r\n");
 	receive(lpParameter);
 	return 0;
 	
@@ -333,8 +333,8 @@ DWORD WINAPI receive(LPVOID lpParameter)
 
 int login()
 {
-	// ³õÊ¼»¯WS2_32.dll
-	WSADATA wsaData; // WSADATA±äÁ¿£¬ÓÃÓÚ³õÊ¼»¯Windows Socket
+	// ï¿½ï¿½Ê¼ï¿½ï¿½WS2_32.dll
+	WSADATA wsaData; // WSADATAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú³ï¿½Ê¼ï¿½ï¿½Windows Socket
 	WORD sockVersion = MAKEWORD(2,2);
 	iResult = ::WSAStartup(sockVersion,&wsaData);
 	if(iResult != NO_ERROR)
@@ -344,7 +344,7 @@ int login()
 	
 	
 	
-	// ´´½¨UDP Socket
+	// ï¿½ï¿½ï¿½ï¿½UDP Socket
 	Socket = ::socket(AF_INET,SOCK_DGRAM,IPPROTO_UDP);
 	if(Socket == INVALID_SOCKET)
 	{
@@ -353,8 +353,8 @@ int login()
 		return -1;
 	}
 	
-        // µÃµ½Ö÷»úÃû----------------------------------------²âÊÔ
-	printf("»ñÈ¡Ö÷»úÃû¡£¡£¡£¡£¡£¡£\n");
+        // ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½----------------------------------------ï¿½ï¿½ï¿½ï¿½
+	printf("ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 	
 	int res = gethostname(hostname, sizeof(hostname));
 	if (res != 0) {
@@ -362,7 +362,7 @@ int login()
 		return -1;
 	}
 	printf("hostname=%s\n", hostname);
-	/*/ »ñµÃ±¾µØip
+	/*/ ï¿½ï¿½Ã±ï¿½ï¿½ï¿½ip
 	hostent* pHostent = gethostbyname(hostname);
 	if (pHostent==NULL) {
 	printf("Error: %u\n", WSAGetLastError());
@@ -379,17 +379,17 @@ int login()
 	  }
 	*/
 	//----------------------------------------------------------------;;;;	
-	// »ñµÃ±¾µØip
+	// ï¿½ï¿½Ã±ï¿½ï¿½ï¿½ip
 	
 	hostent* host = gethostbyname("");
 	char* IP = inet_ntoa(*(struct in_addr*)*(host->h_addr_list)); 
-	sprintf(LocalIP,"%s",IP); // ºÏ²¢×Ö·û´®µ½ ip ÖÐ
+	sprintf(LocalIP,"%s",IP); // ï¿½Ï²ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ ip ï¿½ï¿½
 	printf("-----%s-------\n",LocalIP);
 	
 	
 	
 	
-	// °ó¶¨±¾µØ¶Ë¿Ú
+	// ï¿½ó¶¨±ï¿½ï¿½Ø¶Ë¿ï¿½
 	
 	ServAddr.sin_family = AF_INET;
 	ServAddr.sin_port = htons(PORT);
@@ -401,28 +401,28 @@ int login()
 		closesocket(Socket);
 		return -1;
 	}
-	printf("°ó¶¨±¾µØ¶Ë¿Ú³É¹¦\n");
+	printf("ï¿½ó¶¨±ï¿½ï¿½Ø¶Ë¿Ú³É¹ï¿½\n");
 	
-	// ÉèÖÃÓÃÓÚ½ÓÊÕµÄµØÖ·  
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ÕµÄµï¿½Ö·  
 	RecvAddr.sin_family = AF_INET;
 	RecvAddr.sin_port = htons(PORT);
 	//RecvAddr.sin_addr.S_un.S_addr = inet_addr(GroupAddr);
 	
-	// ÉèÖÃÓÃÓÚ·¢ËÍµÄµØÖ·  
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ÍµÄµï¿½Ö·  
 	SendAddr.sin_family = AF_INET;
 	SendAddr.sin_port = htons(PORT);
-	// ´ò¿ª·þÎñÆ÷£¬¹ã²¥½øÈë
+	// ï¿½ò¿ª·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã²¥ï¿½ï¿½ï¿½ï¿½
 	printf("Sending 'localchat.join' to GroupAddr.....\n");
 	char join[30] = "lgin";
 	
-	strcat(join,LocalIP);  // ËÀµôµÄÔ­ÒòËùÔÚ,Î´ÉèÖÃ»º³åÇø´óÐ¡ £¬ÉèÎª30
-	printf("¹ã²¥µÄÐÅÏ¢£º%s\n",join);
+	strcat(join,LocalIP);  // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,Î´ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ ï¿½ï¿½ï¿½ï¿½Îª30
+	printf("ï¿½ã²¥ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½%s\n",join);
 	//sendto(Socket,ipjoin,14,0,(SOCKADDR*)&RecvAddr,RecvAddrSize);
 	sendmsg(GroupAddr,join);  
 	
 	//localstate = "login";
 	strcpy(localstate,"lgin");
-	printf("³õÊ¼»¯Íê³É....... \n");
+	printf("ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½....... \n");
 	
 	
 	
@@ -433,18 +433,18 @@ int login()
 
 void help()
 {
-	printf("|****************°ïÖú²Ëµ¥****************8|\n");
-	printf("|.help--ÏÔÊ¾°ïÖú²Ëµ¥                     8|\n");
-	printf("|.list--ÏÔÊ¾ÔÚÏßÁÐ±í                     8|\n");
-	printf("|.chat--½øÈëÁÄÌì                         8|\n");
-	printf("|.quit--ÍË³öÁÄÌì                         8|\n");
-	printf("|.exit--ÍË³ö³ÌÐò                         8|\n");
-	printf("|.login--µÇÂ¼                            8|\n");
-	printf("|.logout--ÍË³ö                           8|\n");
-	printf("|.mkroon--´´½¨ÁÄÌìÊÒ                     8|\n");
-	printf("|.localip--²é¿´±¾»úÐÅÏ¢                  8|\n");
-	printf("|.login--µÇÂ¼                            8|\n");
-	printf("|.login--µÇÂ¼                            8|\n");
+	printf("|****************ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½****************8|\n");
+	printf("|.help--ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½                     8|\n");
+	printf("|.list--ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½                     8|\n");
+	printf("|.chat--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½                         8|\n");
+	printf("|.quit--ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½                         8|\n");
+	printf("|.exit--ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½                         8|\n");
+	printf("|.login--ï¿½ï¿½Â¼                            8|\n");
+	printf("|.logout--ï¿½Ë³ï¿½                           8|\n");
+	printf("|.mkroon--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½                     8|\n");
+	printf("|.localip--ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢                  8|\n");
+	printf("|.login--ï¿½ï¿½Â¼                            8|\n");
+	printf("|.login--ï¿½ï¿½Â¼                            8|\n");
 	printf("|****************************************8|\n");
 	return;
 	
@@ -452,7 +452,7 @@ void help()
 void showlist()
 {
 	int j;
-	printf("|**************ÔÚÏßÖ÷»úÁÐ±í£º************8|\n");
+	printf("|**************ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½************8|\n");
 	for(int i = 0;i < strlen(AddrList[100]) ;i++)
 	{
 		j = i - 1;
@@ -462,7 +462,7 @@ void showlist()
 	{
 		j = 0;
 	}
-	printf("|----------ÔÚÏßÖ÷»úÊýÄ¿£º%d -------------8|\n",j);
+	printf("|----------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½%d -------------8|\n",j);
 	printf("|****************************************8|\n");
 	
 	return;
@@ -475,41 +475,41 @@ void logout()
 {
 	
 	sendmsg(GroupAddr,"lout");
-	CloseHandle(hThreadRecv); // Ïú»Ù½ÓÊÕÊý¾Ý½ø³Ì
+	CloseHandle(hThreadRecv); // ï¿½ï¿½ï¿½Ù½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý½ï¿½ï¿½ï¿½
 	closesocket(Socket);
 	WSACleanup();
 	//localstate = "logout";
 	strcpy(localstate,"lout");
-	printf("ÒÑÍË³öµÇÂ¼\n");
+	printf("ï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½Â¼\n");
 	return;
 	
 }
 
 void dochat()
-{// ÇëÇóÁÄÌì
+{// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	char ip[15];
-	printf("ÇëÊäÈë¶Ô·½ip : ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô·ï¿½ip : ");
 	//scanf("%s",&ip);
 	gets(ip);
 	char msg[] = "asks";
 	sendmsg(ip,msg);
-	printf("ÁÄÌìÇëÇóÒÑ·¢³ö£¬µÈ´ý¶Ô·½»ØÓ¦¡£¡£¡£\n");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½Ô·ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 	return;
 }
 
 void quitchat(char ip[])
-{// Ö÷¶¯ÍË³öÁÄÌì
+{// ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½
 	//closesocket();
 	char msg[] = "quit";
 	sendmsg(ip,msg);
 	//localstate = "login";
 	strcpy(localstate,"lgin");
 	ZeroMemory(SendIP,15);
-	printf("ÁÄÌìÒÑÍË³ö\n");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½\n");
 	/*
 	system("mode con:cols=80 lines=40"); 
 	system("cls");
-	printf("{{{{{{{{{{{{{{{{{¾ÖÓòÍøÁÄÌì}}}}}}}}}}}}}}}}}\n\n");
+	printf("{{{{{{{{{{{{{{{{{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}}}}}}}}}}}}}}}}}\n\n");
 	help();
 	*/
 	return ;
@@ -548,7 +548,7 @@ void docmd()
 		{
 			if(strcmp(localstate,"lout") == 0)
 			{
-				printf("ÇëÏÈµÇÂ¼--\n");
+				printf("ï¿½ï¿½ï¿½Èµï¿½Â¼--\n");
 			}
 			else
 			{
@@ -560,7 +560,7 @@ void docmd()
 		{
 			if(strcmp(localstate,"lout") == 0)
 			{
-				printf("ÇëÏÈµÇÂ¼--\n");
+				printf("ï¿½ï¿½ï¿½Èµï¿½Â¼--\n");
 			}
 			else
 			{
@@ -574,11 +574,11 @@ void docmd()
 		{
 			if(strcpy(localstate,"chat") == 0)
 			{
-				quitchat(SendIP);// ÍË³öÁÄÌì
+				quitchat(SendIP);// ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½
 			}
 			else
 			{
-				printf("ÄúÎ´´¦ÓÚÁÄÌì×´Ì¬\n");
+				printf("ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬\n");
 			}
 			continue;
 		}
@@ -592,45 +592,45 @@ void docmd()
 		{
 			if(strcmp(localstate,"lout") == 0)
 			{
-				printf("½øÈëloginÃüÁî¡£¡£¡£¡£\n");
+				printf("ï¿½ï¿½ï¿½ï¿½loginï¿½ï¿½ï¿½î¡£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 				int i ;
 				i = login();
-				printf("login() ·µ»Ø¡£¡£¡£¡£¡£\n");
+				printf("login() ï¿½ï¿½ï¿½Ø¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 				if(i == -1)
 				{
-					printf("login()Ê§°Ü¡£¡£¡£\n");
+					printf("login()Ê§ï¿½Ü¡ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 					continue;
 				}
 				else if(i == 0)
 				{
-					printf("³õÊ¼»¯³É¹¦,login()·µ»Ø0\n");
+					printf("ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½É¹ï¿½,login()ï¿½ï¿½ï¿½ï¿½0\n");
 				}
 				
-				printf("¿ªÊ¼´´½¨Ïß³Ì....... \n");
+				printf("ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½....... \n");
 				
 				
 				DWORD dwThreadId;
-				// ½ÓÊÕÊý¾Ý
+				// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				// receive();
 				
 				
-				// ´´½¨Ò»¸öÏß³Ì
+				// ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ß³ï¿½
 				hThreadRecv = ::CreateThread(
-					NULL,// Ä¬ÈÏ°²È«ÊôÐÔ
-					NULL,// Ä¬ÈÏ¶ÑÕ»´óÐ¡
-					receive,// Ïß³ÌÈë¿ÚµØÖ·£¨Ö´ÐÐÏß³ÌµÄº¯Êý£©
-					NULL,// ´«µÝ¸øº¯ÊýµÄ²ÎÊý
-					0,// Ö¸¶¨Ïß³ÌÁ¢¼´ÔËÐÐ
-					&dwThreadId);// ·µ»ØÏß³ÌµÄIDºÅ
+					NULL,// Ä¬ï¿½Ï°ï¿½È«ï¿½ï¿½ï¿½ï¿½
+					NULL,// Ä¬ï¿½Ï¶ï¿½Õ»ï¿½ï¿½Ð¡
+					receive,// ï¿½ß³ï¿½ï¿½ï¿½Úµï¿½Ö·ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ß³ÌµÄºï¿½ï¿½ï¿½ï¿½ï¿½
+					NULL,// ï¿½ï¿½ï¿½Ý¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½
+					0,// Ö¸ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+					&dwThreadId);// ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ìµï¿½IDï¿½ï¿½
 				printf("Now another thread has been created. ID = %d \n",dwThreadId);
-				/*/ µÈ´ýÐÂÏß³ÌÔËÐÐ½áÊø
+				/*/ ï¿½È´ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½
 				::WaitForSingleObject(hThread,INFINITE);
 				::CloseHandle(hThreadRecv);
 				*/
 			}
 			else
 			{
-				printf("ÄúÒÑµÇÂ¼£¬²»ÄÜÖØ¸´µÇÂ¼");
+				printf("ï¿½ï¿½ï¿½Ñµï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½Â¼");
 			}
 			continue;
 			
@@ -639,7 +639,7 @@ void docmd()
 		{
 			if(strcmp(localstate,"lout") == 0)
 			{
-				printf("ÄúÒÑÀëÏß £¬²»ÄÜÖØ¸´ÀëÏß\n");
+				printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 			}
 			else
 			{
@@ -649,7 +649,7 @@ void docmd()
 		}
 		else if(strcmp(cmd,"mkroom") == 0)
 		{
-			printf("´Ë¹¦ÄÜÉÐÎ´Íê³É£¬ÇëÌåÑéÆäËü¹¦ÄÜ\n");
+			printf("ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 			help();
 			continue;
 		}
@@ -657,7 +657,7 @@ void docmd()
 		{
 			if(strcmp(localstate,"lout") == 0)
 			{
-				printf("ÄúÒÑÀëÏß£¬ÇëÏÈµÇÂ¼\n");
+				printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½Èµï¿½Â¼\n");
 			}
 			else
 			{
@@ -681,12 +681,12 @@ void docmd()
 
 void init()
 {
-	printf("ÕýÔÚ³õÊ¼»¯....... \n");
+	printf("ï¿½ï¿½ï¿½Ú³ï¿½Ê¼ï¿½ï¿½....... \n");
 	
 	
-	// ÉèÖÃ´°ÌåÏÔÊ¾
-	//system();// Ö´ÐÐdosÃüÁî
-	system("title ¾ÖÓòÍøÁÄÌì----Ã÷×ÓÖÆ×÷--QQ£º305603665");
+	// ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
+	//system();// Ö´ï¿½ï¿½dosï¿½ï¿½ï¿½ï¿½
+	system("title ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½----ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½--QQï¿½ï¿½xxx");
 	system("color 5f");
 	//	char setting[30]; 
 	//	sprintf(setting,"mode con:cols=%d lines=%d",x,y); 
@@ -694,7 +694,7 @@ void init()
 	system("cls");
 	//localstate = "logout";
 	strcpy(localstate,"lout");
-	printf("{{{{{{{{{{{{{{{{{¾ÖÓòÍøÁÄÌì}}}}}}}}}}}}}}}}}\n\n");
+	printf("{{{{{{{{{{{{{{{{{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}}}}}}}}}}}}}}}}}\n\n");
 	help();
 	
 	
@@ -705,30 +705,30 @@ void init()
 int main(int argc, char* argv[])
 {
 /*
-void dobuf(char buf[BUF_SIZE],sockaddr_in RecvAddr);// ´¦Àíbuf
-void help();       // °ïÖúÃüÁî
-void login();      // µÇÂ¼
-void init()£»// ³õÊ¼»¯
-void docmd();  // ´¦ÀíÃüÁî
-void showlist(); // ÏÔÊ¾ÔÚÏßÖ÷»ú
-void logout(); // ÍË³öµÇÂ¼
+void dobuf(char buf[BUF_SIZE],sockaddr_in RecvAddr);// ï¿½ï¿½ï¿½ï¿½buf
+void help();       // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+void login();      // ï¿½ï¿½Â¼
+void init()ï¿½ï¿½// ï¿½ï¿½Ê¼ï¿½ï¿½
+void docmd();  // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+void showlist(); // ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+void logout(); // ï¿½Ë³ï¿½ï¿½ï¿½Â¼
 viod exitsy();
 
-  void dowantchat(char ip[]);// ´¦ÀíÁÄÌìÇëÇó
-  void nochat(char ip[]); // ¾Ü¾øÁÄÌì
-  void yeschat(char ip[]); // Í¬ÒâÁÄÌì
-  void chat(char ip[]); // ¿ªÊ¼ÁÄÌì£¬´¦ÀíÁÄÌì
-  void dochat();// ·¢ÆðÁÄÌì
-  void quitchat();// ÍË³öÁÄÌì
+  void dowantchat(char ip[]);// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  void nochat(char ip[]); // ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½
+  void yeschat(char ip[]); // Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  void chat(char ip[]); // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ì£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  void dochat();// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  void quitchat();// ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½
   
-    void sendmsg(char ip[],char buf[BUF_SIZE]); // ·¢ËÍÏûÏ¢
-    void receive(); // ½ÓÊÕÊý¾Ý
+    void sendmsg(char ip[],char buf[BUF_SIZE]); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
+    void receive(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     
       
 	*/
 	
 	
-	init();// ³õÊ¼»¯
+	init();// ï¿½ï¿½Ê¼ï¿½ï¿½
 	//login();
 	docmd();
 	

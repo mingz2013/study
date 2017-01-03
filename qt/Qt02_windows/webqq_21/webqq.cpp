@@ -148,7 +148,7 @@ bool webQQ::getlogin()
     QString context = reply->readAll();
     qDebug() << context;
     //...n_hour%3D0%26regmaster%3D0','0','登录成功！', '明子');
-    //ptuiCB('3','0','','0','您输入的帐号或密码不正确，请重新输入。', '305603665');
+    //ptuiCB('3','0','','0','您输入的帐号或密码不正确，请重新输入。', 'xxx');
     int i = context.lastIndexOf("登录成功！");
     if(i == -1)
     {
@@ -184,7 +184,7 @@ bool webQQ::getlogin()
 void webQQ::getcheck_sig()
 {
     // url
-    //QString str = "http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=305603665&service=login&nodirect=0&ptsig="+ptsig+"&s_url=http%3a%2f%2fweb2.qq.com%2floginproxy.html%3flogin2qq%3d1%26webqq%5ftype%3d10&f_url=&ptlang=2052&ptredirect=100&aid=1003903&daid=164&j_later=0&low_login_hour=0&regmaster=0";
+    //QString str = "http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=xxx&service=login&nodirect=0&ptsig="+ptsig+"&s_url=http%3a%2f%2fweb2.qq.com%2floginproxy.html%3flogin2qq%3d1%26webqq%5ftype%3d10&f_url=&ptlang=2052&ptredirect=100&aid=1003903&daid=164&j_later=0&low_login_hour=0&regmaster=0";
     QString url = getcheck_sig_url;
     QNetworkCookie ptui_loginuin;
     ptui_loginuin.setName("ptui_loginuin");

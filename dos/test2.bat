@@ -1,27 +1,27 @@
 @echo off
-title Ã÷×ÓÖÆ×÷  QQ 305603665
+title QQ
 cls 
 color 1f
-echo Ã÷×ÓÖÆ×÷  QQ305603665
+echo sddd
 echo ----------------------------------------
 goto age
 :age
-set /p age=ÄúµÄÄêÁä£º
+set /p age=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä£º
 if "%age%"=="" goto age
 :name
-set /p name=ÄúµÄÐÕÃû£º
+set /p name=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 if "%name%"=="" goto name
 :ech
-echo ÄúµÄÄêÁäÎª "%age%" £¬ÄúµÄÐÕÃûÎª "%name%"
-set /p choi=ÊÇ·ñÖØÐÂÊäÈë[Y/N]?
+echo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª "%age%" ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª "%name%"
+set /p choi=ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[Y/N]?
 if "%choi%"=="y" goto age
 if "%choi%"=="n" goto end
 if "%choi%"==""  goto kong
-echo ÄúÊäÈëµÄ²»ÕýÈ·£¬ÇëÖØÐÂÊäÈë  
+echo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
 goto ech
 
 :kong
-echo ÊäÈëÎª¿Õ£¬ÇëÖØÐÂÊäÈë
+echo ï¿½ï¿½ï¿½ï¿½Îªï¿½Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 goto ech
 :end
 echo good bye

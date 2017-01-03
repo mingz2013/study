@@ -74,7 +74,7 @@ stringMethod::stringMethod(QObject *parent) :
      *-------------------------------------------------------------------------------------------------------
      *trimmed()函数去除字符串两侧的空白字符(注意，空白字符包括空格、Tab以及换行符，而不仅仅是空格)
      **/
-    str = "  305603665 ";
+    str = "  xxx ";
     //str.trimmed();
     qDebug() << "str------------->" << str;
     qDebug() << "str.trimmed()--->" << str.trimmed();

@@ -474,7 +474,7 @@ bool Widget::getlogin()
     QString context = reply->readAll();
     qDebug() << context;
     //...n_hour%3D0%26regmaster%3D0','0','登录成功！', '明子');
-    //ptuiCB('3','0','','0','您输入的帐号或密码不正确，请重新输入。', '305603665');
+    //ptuiCB('3','0','','0','您输入的帐号或密码不正确，请重新输入。', 'xxx');
     int i = context.lastIndexOf("登录成功！");
     if(i == -1)
     {
@@ -612,7 +612,7 @@ void Widget::getpt4_302()
 void Widget::getcheck_sig()
 {
     // url
-    //QString str = "http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=305603665&service=login&nodirect=0&ptsig="+ptsig+"&s_url=http%3a%2f%2fweb2.qq.com%2floginproxy.html%3flogin2qq%3d1%26webqq%5ftype%3d10&f_url=&ptlang=2052&ptredirect=100&aid=1003903&daid=164&j_later=0&low_login_hour=0&regmaster=0";
+    //QString str = "http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=xxx&service=login&nodirect=0&ptsig="+ptsig+"&s_url=http%3a%2f%2fweb2.qq.com%2floginproxy.html%3flogin2qq%3d1%26webqq%5ftype%3d10&f_url=&ptlang=2052&ptredirect=100&aid=1003903&daid=164&j_later=0&low_login_hour=0&regmaster=0";
     QString str = getcheck_sig_url;
     qDebug() << str;
     QUrl url(str);
@@ -912,7 +912,7 @@ void Widget::group_message_Slot(QJsonObject value)
     ui->tableWidget_sendlog->insertRow(row);// 插入一行
     ui->tableWidget_sendlog->setItem(row, 0, new QTableWidgetItem(Tools::getTimeNow()));
     ui->tableWidget_sendlog->setItem(row, 1, new QTableWidgetItem(Group_number));// 这里要QQ群号
-    ui->tableWidget_sendlog->setItem(row, 2, new QTableWidgetItem(friend_nick + "("+friend_QQ_number+")"));// 这里要昵称 和 QQ号 明子(305603665)
+    ui->tableWidget_sendlog->setItem(row, 2, new QTableWidgetItem(friend_nick + "("+friend_QQ_number+")"));// 这里要昵称 和 QQ号 明子(xxx)
     ui->tableWidget_sendlog->setItem(row, 3, new QTableWidgetItem(content_text));// 只要群消息
 
     // 长度判断

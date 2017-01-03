@@ -1,4 +1,4 @@
-package mingzipackage;
+package letpackage;
 
 public class ChineseStudent implements Student {
 

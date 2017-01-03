@@ -26,7 +26,7 @@ void MainWindow::on_pushButton_clicked()
     // url地址
     QUrl url("https://passport.baidu.com/v2/api/?login");
     // 数据内容
-    QByteArray append("staticpage=http%3A%2F%2Fwww.baidu.com%2Fcache%2Fuser%2Fhtml%2Fv3Jump.html&charset=UTF-8&token=66dd228dfe0b020f0d1bc6cedaa3edbf&tpl=mn&apiver=v3&tt=1374748196503&codestring=&isPhone=false&safeflg=0&u=http%3A%2F%2Fwww.baidu.com%2F&quick_user=0&username=mingzznet&password=mingzi250976&verifycode=&mem_pass=on&ppui_logintime=17253&callback=parent.bd__pcbs__8feo69");
+    QByteArray append("staticpage=http%3A%2F%2Fwww.baidu.com%2Fcache%2Fuser%2Fhtml%2Fv3Jump.html&charset=UTF-8&token=66dd228dfe0b020f0d1bc6cedaa3edbf&tpl=mn&apiver=v3&tt=1374748196503&codestring=&isPhone=false&safeflg=0&u=http%3A%2F%2Fwww.baidu.com%2F&quick_user=0&username=mingzznet&password=let250976&verifycode=&mem_pass=on&ppui_logintime=17253&callback=parent.bd__pcbs__8feo69");
     // 数据长度
     int appendLength = append.length();
 

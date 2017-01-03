@@ -51,7 +51,7 @@ namespace sendGroupMsg
         {
             textBox1.AppendText("****************************************\n");
             textBox1.AppendText("作者：明子\n");
-            textBox1.AppendText(" Q Q：305603665\n");
+            textBox1.AppendText(" Q Q：xxx\n");
             textBox1.AppendText("说明：此为试用版...\n");
         }
     }

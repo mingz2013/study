@@ -1,8 +1,8 @@
-êÇ³Æ£ºmingzi
-ÃÜÂë£ºmingzi123
-¹«Àú2012 1  1
-ÖÐ¹ú ºÓ±± Ê¯¼Ò×¯
-  ÉêÇëµ½µÄQQ£º1668680454     1564302798    2250821172
+ï¿½Ç³Æ£ï¿½let
+ï¿½ï¿½ï¿½ë£ºlet123
+ï¿½ï¿½ï¿½ï¿½2012 1  1
+ï¿½Ð¹ï¿½ ï¿½Ó±ï¿½ Ê¯ï¿½ï¿½×¯
+  ï¿½ï¿½ï¿½ëµ½ï¿½ï¿½QQï¿½ï¿½1668680454     1564302798    2250821172
 POST /cgi-bin/chs/numreg/get_acc?r=0.3092698601224043 HTTP/1.1
 Accept: */*
 Accept-Language: zh-cn
@@ -13,10 +13,10 @@ Host: zc.qq.com
 Content-Length: 479
 Connection: Keep-Alive
 Cache-Control: no-cache
-Cookie: ac=1,013,008; pt2gguin=o1024625981; pgv_pvid=5593476666; o_cookie=305603665; ptui_loginuin=1079512999; pvid=5593476666; ptisp=cnc; uin_cookie=1079512999; euin_cookie=ABA890FFFFA14BF26EFAE420BAA99375A068278113D3A349; zc_uid=1329306453_1464913882; machineCookie=f50e19b05bc6979f938a89b32a56ae72a7a083162a9bd78a; ADTAG=CLIENT.QQ.4333_NewAccount_Btn.0; sessionCookie=60364d220d9cde1b1ddd7baa14229221d2f07260f56a5116; uoc=6-0-9-0-9-0-0-24
+Cookie: ac=1,013,008; pt2gguin=o1024625981; pgv_pvid=5593476666; o_cookie=; ptui_loginuin=1079512999; pvid=5593476666; ptisp=cnc; uin_cookie=1079512999; euin_cookie=ABA890FFFFA14BF26EFAE420BAA99375A068278113D3A349; zc_uid=1329306453_1464913882; machineCookie=f50e19b05bc6979f938a89b32a56ae72a7a083162a9bd78a; ADTAG=CLIENT.QQ.4333_NewAccount_Btn.0; sessionCookie=60364d220d9cde1b1ddd7baa14229221d2f07260f56a5116; uoc=6-0-9-0-9-0-0-24
 
 http://zc.qq.com/cgi-bin/chs/numreg/get_acc?r=0.3092698601224043
 
-&verifycode=&qzone_flag=1&country=1&province=13&city=1&isnongli=0&year=2012&month=1&day=1&isrunyue=0&password=87f4672e11b0ca4495ae2c89605da15af73b1af2a9c508f3dcc0bbe9b8a49f26e201b8a2f37b217cbf090596a1f7c4961950e6fac749dccfdbc911645ef8f13f8d84b90afedf30e81c11733594e08ed527157341a27aab18f96c98f20d98e1ae57247a2310a157925b5464c0bcf13ecf1b9c4b0671b9928ccf8ae7f03db68f77&nick=mingzi&email=false&other_email=false&elevel=0&sex=1&qzdate=&a2d5c2j0=u8o0p9l&jumpfrom=58030&csloginstatus=3
+&verifycode=&qzone_flag=1&country=1&province=13&city=1&isnongli=0&year=2012&month=1&day=1&isrunyue=0&password=87f4672e11b0ca4495ae2c89605da15af73b1af2a9c508f3dcc0bbe9b8a49f26e201b8a2f37b217cbf090596a1f7c4961950e6fac749dccfdbc911645ef8f13f8d84b90afedf30e81c11733594e08ed527157341a27aab18f96c98f20d98e1ae57247a2310a157925b5464c0bcf13ecf1b9c4b0671b9928ccf8ae7f03db68f77&nick=let&email=false&other_email=false&elevel=0&sex=1&qzdate=&a2d5c2j0=u8o0p9l&jumpfrom=58030&csloginstatus=3
 
-&verifycode=ussz&qzone_flag=1&country=1&province=13&city=1&isnongli=0&year=2012&month=1&day=1&isrunyue=0&password=8f08783c543f4da4513f87dd5e6b45c770d0625308412bb6fdc36aca64501c9c6c2a75901c8c89f138fc4226847c7a239a9cf73410eab10661269eb6a83d599601579e6c7d7058ca10d363bc99f0970f33ed316e2e41c72e88c61247da3c9505b6d409e3352b113f859a74e486d6bcecdf80fc748e098f6ff44d787452e1c198&nick=mingzi&email=false&other_email=false&elevel=0&sex=1&qzdate=&a2d5c2j0=u8o0p9l&jumpfrom=58030&csloginstatus=3
+&verifycode=ussz&qzone_flag=1&country=1&province=13&city=1&isnongli=0&year=2012&month=1&day=1&isrunyue=0&password=8f08783c543f4da4513f87dd5e6b45c770d0625308412bb6fdc36aca64501c9c6c2a75901c8c89f138fc4226847c7a239a9cf73410eab10661269eb6a83d599601579e6c7d7058ca10d363bc99f0970f33ed316e2e41c72e88c61247da3c9505b6d409e3352b113f859a74e486d6bcecdf80fc748e098f6ff44d787452e1c198&nick=let&email=false&other_email=false&elevel=0&sex=1&qzdate=&a2d5c2j0=u8o0p9l&jumpfrom=58030&csloginstatus=3

@@ -391,7 +391,7 @@ namespace GroupMsg_v0._1
                 ui->tableWidget_sendlog->insertRow(row);// 插入一行
                 ui->tableWidget_sendlog->setItem(row, 0, new QTableWidgetItem(Tools::getTimeNow()));
                 ui->tableWidget_sendlog->setItem(row, 1, new QTableWidgetItem(Group_number));// 这里要QQ群号
-                ui->tableWidget_sendlog->setItem(row, 2, new QTableWidgetItem(friend_nick + "("+friend_QQ_number+")"));// 这里要昵称 和 QQ号 明子(305603665)
+                ui->tableWidget_sendlog->setItem(row, 2, new QTableWidgetItem(friend_nick + "("+friend_QQ_number+")"));// 这里要昵称 和 QQ号 明子(xxx)
                 ui->tableWidget_sendlog->setItem(row, 3, new QTableWidgetItem(content_text));// 只要群消息
                 */
                 ListViewItem listViewItem = new ListViewItem();
@@ -744,7 +744,7 @@ namespace GroupMsg_v0._1
         private void button_lock_other_Click(object sender, EventArgs e)
         {
             // 测试代码
-            //get_send_to_website("蛇口招170尖头车司机一名，需证照齐全，有两年以上货柜车驾驶经验，熟悉珠三角路线，有意请电18948189702  ", "-", "深圳", "305603665");
+            //get_send_to_website("蛇口招170尖头车司机一名，需证照齐全，有两年以上货柜车驾驶经验，熟悉珠三角路线，有意请电18948189702  ", "-", "深圳", "xxx");
             if (textBox_host.ReadOnly)
             {
                 textBox_host.ReadOnly = false;

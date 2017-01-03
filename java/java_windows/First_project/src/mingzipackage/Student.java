@@ -1,4 +1,4 @@
-package mingzipackage;
+package letpackage;
 
 public interface Student {
 	public void study();

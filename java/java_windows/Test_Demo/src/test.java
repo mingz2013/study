@@ -7,11 +7,11 @@ public class test extends Frame{
 		Frame f=new Frame();
 		f.setSize(200,300);
 		Panel p=new Panel(new GridLayout(2,2));
-		Label l=new Label("ÐÕÃû£º" );
+		Label l=new Label("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
 		p.add(l);
 	
 		TextArea text=new TextArea();
-		text.setText("mingzi");
+		text.setText("let");
 		p.add(text);
 		//f.add(text);
 		Button b=new Button("queding");

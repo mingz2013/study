@@ -1,5 +1,5 @@
 @echo off
-title test  mingzi ---QQ 305603665
+title test   ---QQ
 cls
 color 1c
 :begin

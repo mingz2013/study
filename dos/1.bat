@@ -1,16 +1,16 @@
 @echo off
-title by Ã÷×Ó QQ 305603665
+title by Q
 color 2f
 set t=1
 :main
 echo %t%
 set /a t=%t%+1
-set /p choi=1.ÏÂÒ»¸öÊý;2.ÍË³ö
+set /p choi=1.ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½;2.ï¿½Ë³ï¿½
 echo.
 if %choi%=1 goto main
 if %choi%=2 goto end
 
 :end
 echo goodbye
-echo °´ÈÎÒâ¼üÍË³ö
+echo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½
 pause>nul

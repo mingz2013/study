@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="mingzipackage.ChineseStudent"/>
+    <fullyQualifiedTypeName name="letpackage.ChineseStudent"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.jivesoftware.smack.AccountManager"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>

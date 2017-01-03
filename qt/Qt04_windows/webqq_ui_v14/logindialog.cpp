@@ -274,7 +274,7 @@ void LoginDialog::CreatTrayIcon()
 
     myTrayIcon->setToolTip("webQQ v1.0");    //托盘时，鼠标放上去的提示信息
 
-    myTrayIcon->showMessage("webQQ","webQQ, by MingZz ! QQ:305603665",QSystemTrayIcon::Information,10000);
+    myTrayIcon->showMessage("webQQ","webQQ, by MingZz ! QQ:xxx",QSystemTrayIcon::Information,10000);
 
 
 
@@ -294,7 +294,7 @@ void LoginDialog::iconActivated(QSystemTrayIcon::ActivationReason reason)
         showNormal();
         break;
     case QSystemTrayIcon::MiddleClick:
-        myTrayIcon->showMessage("webQQ","webQQ, by MingZz ! QQ:305603665",QSystemTrayIcon::Information,10000);
+        myTrayIcon->showMessage("webQQ","webQQ, by MingZz ! QQ:xxx",QSystemTrayIcon::Information,10000);
         break;
 
     default:
@@ -306,7 +306,7 @@ void LoginDialog::closeEvent(QCloseEvent *event)
 {
     if (myTrayIcon->isVisible())
        {
-           myTrayIcon->showMessage("webQQ","webQQ, by MingZz ! QQ:305603665",QSystemTrayIcon::Information,5000);
+           myTrayIcon->showMessage("webQQ","webQQ, by MingZz ! QQ:xxx",QSystemTrayIcon::Information,5000);
            myTrayIcon->hide();
            hide();     //最小化
            event->ignore();
