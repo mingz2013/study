@@ -452,7 +452,7 @@ bool Widget::getlogin()
     //passwd.toStdString();
     int argc = 3;
     const string argv[] = {passwd.toLatin1().data(), verifycode.toLatin1().data(), pt_uin.toLatin1().data()};
-    //char *argv[] = {"zhao8879979", "!QSH", "fsgdhfghfgh"};
+
     QString md5_passwd = v8js->runJS("./JS/QQ.js", "func", argc, argv);
     qDebug() << "md5_passwd----------------->" << md5_passwd;
     // url

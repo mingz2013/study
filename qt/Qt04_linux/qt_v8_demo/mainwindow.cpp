@@ -24,7 +24,7 @@ void MainWindow::on_pushButton_clicked()
 
     int argc = 3;
     const string argv[] = {"aaa", "aaaaaaaaaaaa", "aaaaaaaaaaa"};
-    //char *argv[] = {"zhao8879979", "!QSH", "fsgdhfghfgh"};
+
     QString md5_passwd = v8js->runJS("./JS/QQ.js", "func", argc, argv);
     qDebug() << "md5_passwd----------------->" << md5_passwd;
 

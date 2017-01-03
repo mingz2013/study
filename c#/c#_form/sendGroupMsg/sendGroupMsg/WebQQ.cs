@@ -129,7 +129,7 @@ namespace sendGroupMsg
             string strUrl = "https://ssl.ptlogin2.qq.com/login?u=" + qqNumber + "&p=" + md5_pwd + "&verifycode=" + verifycode + "&webqq_type=10&remember_uin=1&login2qq=1&aid=1003903&u1=http%3A%2F%2Fweb2.qq.com%2Floginproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&h=1&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=1-11-11722&mibao_css=m_webqq&t=1&g=1&js_type=0&js_ver=10038&login_sig=FHtWnWD4qzo7PYp*3mDJtPxsYzwUAp9SFO0HlDBzsV5iDmqoldIny4NSmA3NRTwj";
             string content = httpMethod.SendDataByGETtoString(strUrl);
             Debug.WriteLine(content);
-            // ptuiCB('0','0','http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=1079512999&service=login&nodirect=0&ptsig=KNTchh0YK-7DRnUFau5U8OQtSOsNWWUB6wFjCYtKniU_&s_url=http%3A%2F%2Fweb2.qq.com%2Floginproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&f_url=&ptlang=2052&ptredirect=100&aid=1003903&daid=164&j_later=0&low_login_hour=0&regmaster=0','0','登录成功！', '小晶');
+            // ptuiCB('0','0','http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=xxx&service=login&nodirect=0&ptsig=KNTchh0YK-7DRnUFau5U8OQtSOsNWWUB6wFjCYtKniU_&s_url=http%3A%2F%2Fweb2.qq.com%2Floginproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&f_url=&ptlang=2052&ptredirect=100&aid=1003903&daid=164&j_later=0&low_login_hour=0&regmaster=0','0','登录成功！', '小晶');
             Debug.WriteLine(content.Contains("登录成功！"));
             if (!content.Contains("登录成功！")) { Debug.WriteLine("登陆失败"); return false; }
             nick = Tools.getMidOfTwoText(content, "登录成功！', '", "');");

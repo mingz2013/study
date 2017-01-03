@@ -83,7 +83,7 @@ namespace Qzone_Add_Friend
             Debug.WriteLine("textCode----->" + textCode);
             pt_uin = content.Substring(content.LastIndexOf("','") + 3, 32);
             Debug.WriteLine("pt_uin----->" + pt_uin);
-            httpMethod.AddCookie("ptui_loginuin", "1079512999", "/", "qq.com");
+            httpMethod.AddCookie("ptui_loginuin", "xxx", "/", "qq.com");
             if (textCode.Length > 4) { return true; }
             return false;
         }

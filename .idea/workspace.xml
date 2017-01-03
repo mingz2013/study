@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29609604-d56a-4e80-8a50-0ab83fb39bd2" name="Default" comment="init">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JSP/JSP/21.jsp.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JSP/JSP/25.jsp.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JSP/Servlet/.metadata/.me_tcat/__MACOSX/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Ajax/06_glodPrice/my.js.bak" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/163邮箱注册机/0.0.e" afterPath="$PROJECT_DIR$/E/163邮箱注册机/0.0.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e" />
@@ -12,23 +12,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.6.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.6.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.7.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.7.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/新建文本文档.txt" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/新建文本文档.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ大盗刷砖版/2.0/明子QQ大盗.e" afterPath="$PROJECT_DIR$/E/QQ大盗刷砖版/2.0/明子QQ大盗.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ大盗刷砖版/2.0/木马.e" afterPath="$PROJECT_DIR$/E/QQ大盗刷砖版/2.0/木马.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ大盗刷砖版/3.0/明子QQ大盗.e" afterPath="$PROJECT_DIR$/E/QQ大盗刷砖版/3.0/明子QQ大盗.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ大盗刷砖版/3.0/木马.e" afterPath="$PROJECT_DIR$/E/QQ大盗刷砖版/3.0/木马.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ申请post/0.1.e" afterPath="$PROJECT_DIR$/E/QQ申请post/0.1.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ申请post/0.2.e" afterPath="$PROJECT_DIR$/E/QQ申请post/0.2.e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/GET批量获取ＱＱ号/config/qq.ini" afterPath="$PROJECT_DIR$/E/GET批量获取ＱＱ号/config/qq.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ申请post/抓包.txt" afterPath="$PROJECT_DIR$/E/QQ申请post/抓包.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/0.1.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/0.1.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言10.0.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言10.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言11.0.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言11.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言12.0.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言12.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言12.0.log" afterPath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言12.0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言14.0.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言14.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言9.0.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言9.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言１３.0.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/QQ空间留言１３.0.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/address.csv" afterPath="$PROJECT_DIR$/E/QQ空间留言/address.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/SQL版聊天室/0.01.e" afterPath="$PROJECT_DIR$/E/SQL版聊天室/0.01.e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.001.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.001.e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.01.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.01.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.2.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.2.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.3.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.3.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.4.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.4.e" />
@@ -39,67 +28,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.8.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.8.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.9.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.9.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/1.0.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/1.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/分析在线状态.txt" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/分析在线状态.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/获取好友列表等分析.txt" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/获取好友列表等分析.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/分割文本历程/QQlist.txt" afterPath="$PROJECT_DIR$/E/分割文本历程/QQlist.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/分割文本历程/address.csv" afterPath="$PROJECT_DIR$/E/分割文本历程/address.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/分割文本历程/address.txt" afterPath="$PROJECT_DIR$/E/分割文本历程/address.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/字组字小程序/字组字小程序1.0.e" afterPath="$PROJECT_DIR$/E/字组字小程序/字组字小程序1.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/播放器/0.1.e" afterPath="$PROJECT_DIR$/E/播放器/0.1.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/明子记事本/明子记事本1.0.e" afterPath="$PROJECT_DIR$/E/明子记事本/明子记事本1.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/明子记事本/明子记事本2.0.e" afterPath="$PROJECT_DIR$/E/明子记事本/明子记事本2.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/明子记事本/明子记事本3.0.e" afterPath="$PROJECT_DIR$/E/明子记事本/明子记事本3.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/邮件发送实例(可添加附件)/邮件发送器.e" afterPath="$PROJECT_DIR$/E/邮件发送实例(可添加附件)/邮件发送器.e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/邮件群发软件/0.2.e" afterPath="$PROJECT_DIR$/E/邮件群发软件/0.2.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MFC_Win32/vc++6.0/Localchat/Localchat.cpp" afterPath="$PROJECT_DIR$/MFC_Win32/vc++6.0/Localchat/Localchat.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/Form1.cs" afterPath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/Form1.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/InitForm.cs" afterPath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/InitForm.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/QQ_AddFriend_V0.1/QQ_AddFriend_V0.1/InitForm.cs" afterPath="$PROJECT_DIR$/c#/c#_form/QQ_AddFriend_V0.1/QQ_AddFriend_V0.1/InitForm.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/sendGroupMsg/sendGroupMsg/InitForm.cs" afterPath="$PROJECT_DIR$/c#/c#_form/sendGroupMsg/sendGroupMsg/InitForm.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dos/1.bat" afterPath="$PROJECT_DIR$/dos/1.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dos/test (2).bat" afterPath="$PROJECT_DIR$/dos/test (2).bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dos/test.bat" afterPath="$PROJECT_DIR$/dos/test.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dos/test2.bat" afterPath="$PROJECT_DIR$/dos/test2.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flash/弹收按钮/新建文本文档.txt" afterPath="$PROJECT_DIR$/flash/弹收按钮/新建文本文档.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flash/网页制作/index.html" afterPath="$PROJECT_DIR$/flash/网页制作/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/bzzx.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/bzzx.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/dpjj.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/dpjj.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/fhcx.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/fhcx.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/index.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/khfu.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/khfu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/show1.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/show1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/show2.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/show2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/wssd.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/wssd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/MingZz/样式.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/MingZz/样式.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dreamweaver/test_Demo/Untitled-2.html" afterPath="$PROJECT_DIR$/html5/dreamweaver/test_Demo/Untitled-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch" afterPath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/java/java_windows/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/First_project/src/mingzipackage/ChineseStudent.java" afterPath="$PROJECT_DIR$/java/java_windows/First_project/src/mingzipackage/ChineseStudent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/First_project/src/mingzipackage/Student.java" afterPath="$PROJECT_DIR$/java/java_windows/First_project/src/mingzipackage/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/First_project/src/mingzipackage/Test.java" afterPath="$PROJECT_DIR$/java/java_windows/First_project/src/mingzipackage/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java_windows/Test_Demo/src/test.java" afterPath="$PROJECT_DIR$/java/java_windows/Test_Demo/src/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php100_windows/member/config.php" afterPath="$PROJECT_DIR$/php/php100_windows/member/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php100_windows/test/class_object.php" afterPath="$PROJECT_DIR$/php/php100_windows/test/class_object.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php100_windows/test/index_test1.php" afterPath="$PROJECT_DIR$/php/php100_windows/test/index_test1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php100_windows/test/php100-41-search.php" afterPath="$PROJECT_DIR$/php/php100_windows/test/php100-41-search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php100_windows/test/sendmail.php" afterPath="$PROJECT_DIR$/php/php100_windows/test/sendmail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/Cookie_Qzone/Cookie_Qzone/Qzone.cs" afterPath="$PROJECT_DIR$/c#/c#_form/Cookie_Qzone/Cookie_Qzone/Qzone.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/WebQQ.cs" afterPath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/WebQQ.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/QQ_AddFriend_V0.1/QQ_AddFriend_V0.1/Qzone.cs" afterPath="$PROJECT_DIR$/c#/c#_form/QQ_AddFriend_V0.1/QQ_AddFriend_V0.1/Qzone.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/Qzone_Add_Friend/Qzone_Add_Friend/Qzone.cs" afterPath="$PROJECT_DIR$/c#/c#_form/Qzone_Add_Friend/Qzone_Add_Friend/Qzone.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/sendGroupMsg/sendGroupMsg/WebQQ.cs" afterPath="$PROJECT_DIR$/c#/c#_form/sendGroupMsg/sendGroupMsg/WebQQ.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/qt_05_POST/mainwindow.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/qt_05_POST/mainwindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/qt_09_cookie/mainwindow.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/qt_09_cookie/mainwindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/qt_10_GET_POST/mainwindow.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/qt_10_GET_POST/mainwindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/qt_11_QString/stringmethod.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/qt_11_QString/stringmethod.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/qt_21_httpmethod/mainwindow.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/qt_21_httpmethod/mainwindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/qt_22_GET_POST_CLASS/mainwindow.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/qt_22_GET_POST_CLASS/mainwindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/webqq21/webqq.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/webqq21/webqq.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_windows/webqq_21/webqq.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_windows/webqq_21/webqq.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_windows/webqq_21_install/Licence.txt" afterPath="$PROJECT_DIR$/qt/Qt02_windows/webqq_21_install/Licence.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_windows/webqq_ui_v12/webqq.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_windows/webqq_ui_v12/webqq.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp" afterPath="$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt04_windows/webqq_ui_v14/logindialog.cpp" afterPath="$PROJECT_DIR$/qt/Qt04_windows/webqq_ui_v14/logindialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt04_windows/webqq_ui_v14/maindialog.cpp" afterPath="$PROJECT_DIR$/qt/Qt04_windows/webqq_ui_v14/maindialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt04_windows/webqq_ui_v14/webqq.cpp" afterPath="$PROJECT_DIR$/qt/Qt04_windows/webqq_ui_v14/webqq.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt_windows_01/webqq_ui_v19_install/README.txt" afterPath="$PROJECT_DIR$/qt/Qt_windows_01/webqq_ui_v19_install/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp" afterPath="$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp" />
     </list>
     <ignored path="study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,7 +61,58 @@
     <favorites_list name="study" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="0.1.e" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0.0.e" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/E/163邮箱注册机/0.0.e">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6111111">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widget.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widget.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainwindow.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,7 +130,6 @@
         <option value="$PROJECT_DIR$/E/webQQ登陆分析/0.2.e" />
         <option value="$PROJECT_DIR$/E/webQQ登陆分析/0.4.e" />
         <option value="$PROJECT_DIR$/E/webQQ登陆分析/0.5.e" />
-        <option value="$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e" />
         <option value="$PROJECT_DIR$/E/3gQQ登陆分析/0.2.e" />
         <option value="$PROJECT_DIR$/E/3gQQ登陆分析/0.3.e" />
         <option value="$PROJECT_DIR$/E/3gQQ登陆分析/0.6.e" />
@@ -152,6 +143,10 @@
         <option value="$PROJECT_DIR$/E/webQQ登陆分析/1.0.e" />
         <option value="$PROJECT_DIR$/E/邮件群发软件/0.2.e" />
         <option value="$PROJECT_DIR$/E/QQ申请post/0.1.e" />
+        <option value="$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e" />
+        <option value="$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp" />
+        <option value="$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp" />
+        <option value="$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp" />
         <option value="$PROJECT_DIR$/E/163邮箱注册机/0.0.e" />
       </list>
     </option>
@@ -508,7 +503,13 @@
       <option name="project" value="LOCAL" />
       <updated>1483427902432</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <created>1483428935087</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1483428935087</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,7 +526,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33524355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1661891" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6293532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6293532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -559,29 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lua/lua_05_OO2/src/main.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7310469">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lua/lua_02_table/src/main.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8122744">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2012/MFCApplication1/MFCApplication1/MFCApplication1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2012/DianMing/DianMing/DianMing.rc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -834,14 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="299" selection-start-line="33" selection-start-column="299" selection-end-line="33" selection-end-column="299" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/E/3gQQ登陆分析/0.2.e">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -946,10 +916,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/E/163邮箱注册机/0.0.e">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7345361">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6111111">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>

@@ -1,62 +1,62 @@
-¼ü	Öµ
-ÇëÇó	GET /login?u=1079512999&p=4754808BEBA0A62C173CFE7D7D88712A&verifycode=!EL4&webqq_type=10&remember_uin=1&login2qq=1&aid=1003903&u1=http%3A%2F%2Fweb.qq.com%2Floginproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&h=1&ptredirect=0&ptlang=2052&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=8-19-46939&mibao_css=m_webqq&t=1&g=1 HTTP/1.1
-¼ü	Öµ
-ÇëÇó	GET /loginproxy.html?login2qq=1&webqq_type=10 HTTP/1.1
-¼ü	Öµ
-ÇëÇó	POST /keycgi/qqweb/newuac/get.do HTTP/1.1
-r=%7B%22appid%22%3A50%2C%22itemlist%22%3A%5B%22width%22%2C%22height%22%2C%22defaultMode%22%5D%7D&uin=1079512999
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /login?u=xxx&p=4754808BEBA0A62C173CFE7D7D88712A&verifycode=!EL4&webqq_type=10&remember_uin=1&login2qq=1&aid=1003903&u1=http%3A%2F%2Fweb.qq.com%2Floginproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&h=1&ptredirect=0&ptlang=2052&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=8-19-46939&mibao_css=m_webqq&t=1&g=1 HTTP/1.1
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /loginproxy.html?login2qq=1&webqq_type=10 HTTP/1.1
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	POST /keycgi/qqweb/newuac/get.do HTTP/1.1
+r=%7B%22appid%22%3A50%2C%22itemlist%22%3A%5B%22width%22%2C%22height%22%2C%22defaultMode%22%5D%7D&uin=xxx
 -------------------------------------------------------------------------------------------
-¼ü	Öµ
-ÇëÇó	GET /webqqpic/style/images/task/bg_task_eqq.gif HTTP/1.1
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /webqqpic/style/images/task/bg_task_eqq.gif HTTP/1.1
 http://0.web.qstatic.com/webqqpic/style/images/task/bg_task_eqq.gif
-//ÇëÇóÔÚÏß×´Ì¬Í¼±ê
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Í¼ï¿½ï¿½
 -----------------------------------------------------------------------------------------
-¼ü	Öµ
-ÇëÇó	POST /channel/login2 HTTP/1.1
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	POST /channel/login2 HTTP/1.1
 http://d.web2.qq.com/channel/login2
-ÇëÇóÕ÷ÎÄ
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 r=%7B%22status%22%3A%22online%22%2C%22ptwebqq%22%3A%224532699bcba173493a697f988480bd3e29286bfabe57baa65f3f62409012dda5%22%2C%22passwd_sig%22%3A%22%22%2C%22clientid%22%3A%227413966%22%2C%22psessionid%22%3Anull%7D&clientid=7413966&psessionid=null
-ÏìÓ¦ÕýÎÄ
-{"retcode":0,"result":{"uin":1079512999,"cip":2031895883,"index":1075,"port":52336,"status":"online",
+ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½
+{"retcode":0,"result":{"uin":xxx,"cip":2031895883,"index":1075,"port":52336,"status":"online",
 "vfwebqq":"ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde","psessionid":"8368046764001d636f6e6e7365727665725f77656271714031302e3133342e362e31333800003f2700001cee026e0400a70f58406d0000000a404547717535734e5a656d00000028ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde","user_state":0,"f":0}}
 
 -------------------------------------------------------------------------------
-http://face10.qun.qq.com/cgi/svr/face/getface?cache=1&type=1&fid=0&uin=1079512999&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014324
-¼ü	Öµ
-ÇëÇó	GET /cgi/svr/face/getface?cache=1&type=1&fid=0&uin=1079512999&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014324 HTTP/1.1
-//»ñÈ¡Í·Ïñ
+http://face10.qun.qq.com/cgi/svr/face/getface?cache=1&type=1&fid=0&uin=xxx&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014324
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /cgi/svr/face/getface?cache=1&type=1&fid=0&uin=xxx&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014324 HTTP/1.1
+//ï¿½ï¿½È¡Í·ï¿½ï¿½
 -------------------------------------------------------------------------------
-http://s.web2.qq.com/api/get_friend_info2?tuin=1079512999&verifysession=&code=&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014333
-¼ü	Öµ
-ÇëÇó	GET /api/get_friend_info2?tuin=1079512999&verifysession=&code=&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014333 HTTP/1.1
-//»ñÈ¡¸öÈË×ÊÁÏ
+http://s.web2.qq.com/api/get_friend_info2?tuin=xxx&verifysession=&code=&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014333
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /api/get_friend_info2?tuin=xxx&verifysession=&code=&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014333 HTTP/1.1
+//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 -------------------------------------------------------------------------------
 http://s.web2.qq.com/api/get_user_friends2
-¼ü	Öµ
-ÇëÇó	POST /api/get_user_friends2 HTTP/1.1
-ÇëÇóÕ÷ÎÄ£º
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	POST /api/get_user_friends2 HTTP/1.1
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½
 r=%7B%22h%22%3A%22hello%22%2C%22vfwebqq%22%3A%22ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde%22%7D
-//»ñÈ¡ºÃÓÑÁÐ±í
+//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½
 --------------------------------------------------------------------------------------
 http://s.web2.qq.com/api/get_group_name_list_mask2
-¼ü	Öµ
-ÇëÇó	POST /api/get_group_name_list_mask2 HTTP/1.1
-ÇëÇóÕ÷ÎÄ
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	POST /api/get_group_name_list_mask2 HTTP/1.1
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 r=%7B%22vfwebqq%22%3A%22ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde%22%7D
-//»ñÈ¡ÈºÁÐ±í
+//ï¿½ï¿½È¡Èºï¿½Ð±ï¿½
 -------------------------------------------------------------------------------------------
 http://face5.qun.qq.com/cgi/svr/face/getface?cache=0&type=4&fid=0&uin=1297357644&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde
-¼ü	Öµ
-ÇëÇó	GET /cgi/svr/face/getface?cache=0&type=4&fid=0&uin=1297357644&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde HTTP/1.1
-//»ñÈ¡ÈºÍ·Ïñ
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /cgi/svr/face/getface?cache=0&type=4&fid=0&uin=1297357644&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde HTTP/1.1
+//ï¿½ï¿½È¡ÈºÍ·ï¿½ï¿½
 ---------------------------------------------------------------------------------------
-http://s.web2.qq.com/api/get_single_long_nick2?tuin=1079512999&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014560
-¼ü	Öµ
-ÇëÇó	GET /api/get_single_long_nick2?tuin=1079512999&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014560 HTTP/1.1
-//»ñÈ¡¸öÐÔÇ©Ãû
+http://s.web2.qq.com/api/get_single_long_nick2?tuin=xxx&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014560
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /api/get_single_long_nick2?tuin=xxx&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde&t=1340334014560 HTTP/1.1
+//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½
 ------------------------------------------------------------------------------------------
 http://face5.qun.qq.com/cgi/svr/face/getface?cache=0&type=1&fid=0&uin=1550329934&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde
-¼ü	Öµ
-ÇëÇó	GET /cgi/svr/face/getface?cache=0&type=1&fid=0&uin=1550329934&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde HTTP/1.1
-//»ñÈ¡ºÃÓÑÍ·Ïñ
+ï¿½ï¿½	Öµ
+ï¿½ï¿½ï¿½ï¿½	GET /cgi/svr/face/getface?cache=0&type=1&fid=0&uin=1550329934&vfwebqq=ab3254f309e7fe74c59a6a667e1b07f2e971ec6cb15c038bded55bc7564b003feba761a9bc4b3cde HTTP/1.1
+//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½
 -------------------------------------------------------------------------------------------
