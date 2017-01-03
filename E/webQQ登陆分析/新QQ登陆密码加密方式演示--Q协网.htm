@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0046)http://www.qqxieyi.com/function/encodepwd.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML
+        xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+    <SCRIPT language="JavaScript" src="新QQ登陆密码加密方式演示--Q协网_files/encodepwd.js"></SCRIPT>
+
+    <SCRIPT type="text/javascript">
+
+
+        function Calculate() {
+            var pt_uin = document.getElementById("pt_uin").value;
+            var pass = document.getElementById("pass").value;
+            var captcha = document.getElementById("captcha").value;
+            var G = QXWEncodePwd(pt_uin, pass, captcha);
+            document.getElementById("p").value = G;
+        }
+
+
+        function Creset() {
+            document.getElementById("pt_uin").value = "";
+            document.getElementById("pass").value = "";
+            document.getElementById("captcha").value = "";
+            document.getElementById("p").value = "";
+
+        }
+
+    </SCRIPT>
+
+    <META content="text/html; charset=gb2312" http-equiv="Content-Type">
+    <TITLE>新QQ登陆密码加密方式演示--Q协网</TITLE>
+    <STYLE type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #jiami {
+            width: 340px;
+            margin: 0px auto;
+            margin-bottom: 20px;
+        }
+
+        #jiami table {
+            border-collapse: collapse;
+        }
+
+        #jiami table th {
+            height: 50px;
+            font-size: 19px;
+            color: #555;
+        }
+
+        #jiami table td {
+            height: 50px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .text_input {
+            height: 25px;
+            border: 2px #888 solid;
+            width: 250px;
+            line-height: 25px;
+            font-size: 13px;
+            color: #0033FF;
+            font-weight: bold;
+        }
+
+        .submit_input {
+            border: 1px #888 solid;
+            width: 50px;
+            height: 25px;
+        }
+
+        #shuoming {
+            width: 330px;
+            padding: 10px;
+            background: #F5FBFF;
+            border: 1px #ddd solid;
+            margin: 0 auto;
+        }
+
+        #shuoming p {
+            font-size: 12px;
+            color: #666;
+        }
+
+
+    </STYLE>
+
+    <META name="GENERATOR" content="MSHTML 9.00.8112.16446">
+</HEAD>
+<BODY>
+<DIV id="jiami">
+    <TABLE border="0">
+        <TBODY>
+        <TR>
+            <TH colSpan="2">新QQ登陆密码加密方式演示</TH>
+        </TR>
+        <TR>
+            <TD width="25%">pt_uin</TD>
+            <TD><INPUT id="pt_uin" class="text_input" type="text"></TD>
+        </TR>
+        <TR>
+            <TD>密码</TD>
+            <TD><INPUT id="pass" class="text_input" type="text"></TD>
+        </TR>
+        <TR>
+            <TD>验证码</TD>
+            <TD><INPUT id="captcha" class="text_input" type="text"></TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD><LABEL><INPUT class="submit_input" onclick="Calculate()" value="计算" type="submit"><INPUT
+                    class="submit_input" onclick="Creset()" value="重置" type="reset"></LABEL></TD>
+        </TR>
+        <TR>
+            <TD>结果</TD>
+            <TD><INPUT style="color: red;" id="p" class="text_input"
+                       type="text"></TD>
+        </TR>
+        </TBODY>
+    </TABLE>
+</DIV>
+<DIV id="shuoming">
+    <P>使用说明:</P>
+    <P>1、pt_uin:检查QQ返回的16进制字符串，如：\x00\x00\x00\x00\x3c\xcb\x48\x45</P>
+    <P>2、验证码:大小写均可，如：EJKS</P>
+    <P>　</P>
+    <P>外部调用JS说明:</P>
+    <P>1、JS地址：http://www.qqxieyi.com/function/encodepwd.js</P>
+    <P>2、函数调用：QXWEncodePwd(pt_uin,密码,验证码)，如：QXWEncodePwd("\x00\x00\x00\x00\x3c\xcb\x48\x45","123456","EJKS")</P>
+</DIV>
+<P style="text-align: center; color: rgb(255, 0, 0); padding-top: 30px; font-size: 12px;">*　<A
+        style="color: red;" href="http://www.qqxieyi.com/"
+        target="_blank">Q协网技术支持</A></P></BODY>
+</HTML>

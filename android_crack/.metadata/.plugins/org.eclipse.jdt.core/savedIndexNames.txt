@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/zhaojm/.study/android_crack/.metadata/.plugins/org.eclipse.jdt.core
+1270315800.index
+4286411603.index
+197469752.index
