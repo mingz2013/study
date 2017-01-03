@@ -13,7 +13,7 @@ Host: zc.qq.com
 Content-Length: 479
 Connection: Keep-Alive
 Cache-Control: no-cache
-Cookie: ac=1,013,008; pt2gguin=o1024625981; pgv_pvid=5593476666; o_cookie=; ptui_loginuin=xxx; pvid=5593476666; ptisp=cnc; uin_cookie=xxx; euin_cookie=ABA890FFFFA14BF26EFAE420BAA99375A068278113D3A349; zc_uid=1329306453_1464913882; machineCookie=f50e19b05bc6979f938a89b32a56ae72a7a083162a9bd78a; ADTAG=CLIENT.QQ.4333_NewAccount_Btn.0; sessionCookie=60364d220d9cde1b1ddd7baa14229221d2f07260f56a5116; uoc=6-0-9-0-9-0-0-24
+Cookie: ac=1,013,008; pt2gguin=oxxx; pgv_pvid=5593476666; o_cookie=; ptui_loginuin=xxx; pvid=5593476666; ptisp=cnc; uin_cookie=xxx; euin_cookie=ABA890FFFFA14BF26EFAE420BAA99375A068278113D3A349; zc_uid=1329306453_1464913882; machineCookie=f50e19b05bc6979f938a89b32a56ae72a7a083162a9bd78a; ADTAG=CLIENT.QQ.4333_NewAccount_Btn.0; sessionCookie=60364d220d9cde1b1ddd7baa14229221d2f07260f56a5116; uoc=6-0-9-0-9-0-0-24
 
 http://zc.qq.com/cgi-bin/chs/numreg/get_acc?r=0.3092698601224043
 

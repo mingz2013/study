@@ -57,7 +57,7 @@ public class MainActivity extends ListActivity {
 		// 显示拨打电话界面
 		case 2:
 			// 字符串uri
-			data = "tel:15227833688";
+			data = "tel:xxx";
 			// 通过uri字符串获取uri实例
 			uri = Uri.parse(data);
 			// 设置intent的action属性
@@ -70,7 +70,7 @@ public class MainActivity extends ListActivity {
 		// 直接拨打电话
 		case 3:
 			// 字符串uri
-			data = "tel:15227833688";
+			data = "tel:xxx";
 			// 通过uri字符串获取uri实例
 			uri = Uri.parse(data);
 			// 设置intent的action属性
