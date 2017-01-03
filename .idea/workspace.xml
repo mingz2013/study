@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29609604-d56a-4e80-8a50-0ab83fb39bd2" name="Default" comment="init">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Jquery/08-04/welcome.php.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Jquery/08-05/style.css.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Jquery/08-05/welcome.php.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Jquery/08-06/welcome.php.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/linux_glade/ui.glade" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="study.iws" />
@@ -437,7 +438,13 @@
       <option name="project" value="LOCAL" />
       <updated>1483429392233</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="init">
+      <created>1483429534098</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1483429534098</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -488,13 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2010/Clock/Clock/Clock.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2010/Clock/Clock/resource.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -883,6 +883,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28994846">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux_glade/ui.glade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5412371">
+          <caret line="28" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
