@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29609604-d56a-4e80-8a50-0ab83fb39bd2" name="Default" comment="init">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JSP/Servlet/.metadata/.me_tcat/__MACOSX/conf/tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Ajax/06_glodPrice/my.js.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Jquery/08-04/welcome.php.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5/Jquery/08-05/style.css.bak" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/163邮箱注册机/0.0.e" afterPath="$PROJECT_DIR$/E/163邮箱注册机/0.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.2.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.2.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.3.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.3.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.6.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.6.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/0.7.e" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/0.7.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/3gQQ登陆分析/新建文本文档.txt" afterPath="$PROJECT_DIR$/E/3gQQ登陆分析/新建文本文档.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/GET批量获取ＱＱ号/config/qq.ini" afterPath="$PROJECT_DIR$/E/GET批量获取ＱＱ号/config/qq.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ申请post/抓包.txt" afterPath="$PROJECT_DIR$/E/QQ申请post/抓包.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/0.1.e" afterPath="$PROJECT_DIR$/E/QQ空间留言/0.1.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/QQ空间留言/address.csv" afterPath="$PROJECT_DIR$/E/QQ空间留言/address.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.001.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.001.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.01.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.01.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.2.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.2.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.3.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.3.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.4.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.4.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.5.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.5.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.6新版MD5算法分析开始.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.6新版MD5算法分析开始.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.7.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.7.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.7成功登陆.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.7成功登陆.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.8.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.8.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/0.9.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/0.9.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/1.0.e" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/1.0.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/webQQ登陆分析/获取好友列表等分析.txt" afterPath="$PROJECT_DIR$/E/webQQ登陆分析/获取好友列表等分析.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/分割文本历程/QQlist.txt" afterPath="$PROJECT_DIR$/E/分割文本历程/QQlist.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/分割文本历程/address.csv" afterPath="$PROJECT_DIR$/E/分割文本历程/address.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/分割文本历程/address.txt" afterPath="$PROJECT_DIR$/E/分割文本历程/address.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E/邮件群发软件/0.2.e" afterPath="$PROJECT_DIR$/E/邮件群发软件/0.2.e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/Cookie_Qzone/Cookie_Qzone/Qzone.cs" afterPath="$PROJECT_DIR$/c#/c#_form/Cookie_Qzone/Cookie_Qzone/Qzone.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/WebQQ.cs" afterPath="$PROJECT_DIR$/c#/c#_form/GroupMsg_v0.1/GroupMsg_v0.1/WebQQ.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/QQ_AddFriend_V0.1/QQ_AddFriend_V0.1/Qzone.cs" afterPath="$PROJECT_DIR$/c#/c#_form/QQ_AddFriend_V0.1/QQ_AddFriend_V0.1/Qzone.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/Qzone_Add_Friend/Qzone_Add_Friend/Qzone.cs" afterPath="$PROJECT_DIR$/c#/c#_form/Qzone_Add_Friend/Qzone_Add_Friend/Qzone.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c#/c#_form/sendGroupMsg/sendGroupMsg/WebQQ.cs" afterPath="$PROJECT_DIR$/c#/c#_form/sendGroupMsg/sendGroupMsg/WebQQ.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp" afterPath="$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp" afterPath="$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp" afterPath="$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp" />
     </list>
     <ignored path="study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,58 +25,7 @@
     <favorites_list name="study" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="0.1.e" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="0.0.e" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/E/163邮箱注册机/0.0.e">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6111111">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="widget.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="widget.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainwindow.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,7 +37,6 @@
         <option value="$PROJECT_DIR$/dos/test (2).bat" />
         <option value="$PROJECT_DIR$/dos/1.bat" />
         <option value="$PROJECT_DIR$/dos/test2.bat" />
-        <option value="$PROJECT_DIR$/E/QQ申请post/抓包.txt" />
         <option value="$PROJECT_DIR$/E/webQQ登陆分析/分析在线状态.txt" />
         <option value="$PROJECT_DIR$/E/webQQ登陆分析/0.3.e" />
         <option value="$PROJECT_DIR$/E/webQQ登陆分析/0.2.e" />
@@ -147,6 +59,10 @@
         <option value="$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp" />
         <option value="$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp" />
         <option value="$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp" />
+        <option value="$PROJECT_DIR$/E/QQ申请post/抓包.txt" />
+        <option value="$PROJECT_DIR$/E/QQ空间留言/address.csv" />
+        <option value="$PROJECT_DIR$/E/QQ空间留言/0.1.e" />
+        <option value="$PROJECT_DIR$/android/Android_linux/Android012/src/com/example/android012/MainActivity.java" />
         <option value="$PROJECT_DIR$/E/163邮箱注册机/0.0.e" />
       </list>
     </option>
@@ -509,7 +425,19 @@
       <option name="project" value="LOCAL" />
       <updated>1483428935087</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="init">
+      <created>1483429212313</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1483429212313</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init">
+      <created>1483429392233</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1483429392233</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +454,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33524355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1661891" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6293532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6293532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -560,27 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2012/DianMing/DianMing/DianMing.rc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2012/DianMing/DianMing/DianMingDlg.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3826716">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2010/Clock/Clock/Clock.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0288808">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MFC_Win32/vs2010/Clock/Clock/Clock.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -764,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/E/QQ申请post/抓包.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/E/webQQ登陆分析/分析在线状态.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -916,17 +815,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qt/Qt02_linux/GroupMsg_V0.6/widget.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.33333334">
           <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
           <folding />
         </state>
@@ -934,7 +825,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/GroupMsg_V0.6/widget.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.33333334">
           <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
           <folding />
         </state>
@@ -942,16 +833,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qt/Qt04_linux/qt_v8_demo/mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.33333334">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E/3gQQ登陆分析/0.1.e">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11111111">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E/QQ空间留言/address.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6713917">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E/QQ空间留言/0.1.e">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11597938">
+          <caret line="930" column="329" selection-start-line="930" selection-start-column="329" selection-end-line="930" selection-end-column="329" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/Android_linux/Android012/src/com/example/android012/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11597938">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/E/163邮箱注册机/0.0.e">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6111111">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.11597938">
+          <caret line="41" column="218" selection-start-line="41" selection-start-column="218" selection-end-line="41" selection-end-column="218" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E/QQ申请post/抓包.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28994846">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
