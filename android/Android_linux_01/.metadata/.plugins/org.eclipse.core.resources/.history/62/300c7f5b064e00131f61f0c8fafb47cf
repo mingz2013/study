@@ -1,7 +1,0 @@
-package com.example.android_02_client;
-
-public class LoginMessage {
-	public String username;
-	public String password;
-
-}

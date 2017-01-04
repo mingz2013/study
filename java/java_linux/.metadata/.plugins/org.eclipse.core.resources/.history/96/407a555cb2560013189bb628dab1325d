@@ -1,7 +1,0 @@
-package com.mingzz.client;
-
-public class Message {
-	private String name;
-	private int age;
-
-}

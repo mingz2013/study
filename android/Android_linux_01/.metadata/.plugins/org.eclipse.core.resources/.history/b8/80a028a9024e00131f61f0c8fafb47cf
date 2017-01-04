@@ -1,6 +1,0 @@
-package com.example.android_02_client;
-
-public class UserMessage {
-	private int MessageType;
-	private Object MsgObj;
-}

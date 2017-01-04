@@ -1,8 +1,0 @@
-package com.example.android03_xml_parser;
-
-public class Person {
-	private Integer id;
-	private String name;
-	private Short age;
-
-}

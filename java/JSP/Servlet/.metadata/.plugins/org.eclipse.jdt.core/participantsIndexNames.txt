@@ -1,3 +1,0 @@
-INDEX VERSION 1.126
-D:\studymyself\JSP\Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3905337231.index
-\web01_helloworld\src

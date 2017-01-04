@@ -1,1 +1,0 @@
-package AAA;class AA{	class BB{	}}
