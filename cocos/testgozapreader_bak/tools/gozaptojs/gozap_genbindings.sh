@@ -1,2 +1,0 @@
-#!/bin/sh
-./genbindings.py
