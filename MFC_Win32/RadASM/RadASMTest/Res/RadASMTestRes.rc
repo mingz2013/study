@@ -1,2 +1,0 @@
-#define IDI_ICON			10
-IDI_ICON		ICON      DISCARDABLE "Res/ICON.ICO"
